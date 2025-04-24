@@ -1,0 +1,403 @@
+/* Tablet: ≤ 1024px */
+@media screen and (max-width: 1024px) {
+  .container {
+    max-width: calc(100% - 30px);
+  }
+
+  /* Header Top */
+  .header-top-body {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 8px;
+    font-size: 13px;
+  }
+
+  .header-top__list {
+    margin-top: 5px;
+    gap: 10px;
+  }
+
+  /* Header Center */
+  .header-center-body {
+    flex-wrap: wrap;
+    height: auto;
+    padding: 15px 0;
+  }
+
+  .header-center__logo {
+    width: 180px;
+    height: 65px;
+    margin-top: -15px;
+  }
+
+  .header-center__search {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .header-center__cart {
+    margin-top: 10px;
+  }
+
+  /* Header Bottom */
+  .header-bottom-body {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .header-bottom__cate {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .cate__list {
+    width: 100%;
+    top: 45px;
+  }
+
+  .navbar__list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    width: 100%;
+    margin-top: 10px;
+    gap: 12px;
+    padding: 0 10px 10px 0;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  .navbar__list::-webkit-scrollbar {
+    display: none;
+  }
+
+  .navbar__item {
+    flex: 0 0 auto;
+    min-width: 120px;
+    max-width: 160px;
+  }
+
+  .navbar__link {
+    padding: 8px 12px;
+    font-size: 14px;
+    display: block;
+    text-align: center;
+    white-space: nowrap;
+  }
+
+  /* Auth Section */
+  .auth-container {
+    max-width: 350px;
+  }
+
+  .auth-box {
+    padding: 20px;
+  }
+
+  .tab {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .form-group input {
+    padding: 10px;
+    font-size: 13px;
+  }
+
+  .auth-btn {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .social-btn {
+    font-size: 13px;
+    padding: 10px;
+  }
+
+  /* Policy */
+  .policy-list {
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 30px auto;
+  }
+
+  .policy-item {
+    flex: 1 1 45%;
+    margin: 0;
+  }
+
+  /* Footer */
+  .footer-list {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .footer__logo {
+    width: 180px;
+    height: 65px;
+  }
+
+  .footer__desc {
+    width: 100%;
+  }
+
+  .footer__heading {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .footer-item ul li {
+    font-size: 14px;
+  }
+}
+
+/* Mobile: ≤ 767px */
+@media screen and (max-width: 767px) {
+  .container {
+    max-width: calc(100% - 20px);
+  }
+
+  /* Header Top */
+  .header-top {
+    height: auto;
+    padding: 10px 0;
+  }
+
+  .header-top-body {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+  }
+
+  .header-top__list {
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 8px;
+  }
+
+  .header-top__desc {
+    font-size: 12px;
+  }
+
+  /* Header Center */
+  .header-center-body {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+  }
+
+  .header-center__logo {
+    width: 150px;
+    height: 55px;
+    margin-top: 0;
+  }
+
+  .header-center__search {
+    width: 100%;
+    height: 35px;
+    margin: 10px 0;
+  }
+
+  .header-center__search input {
+    font-size: 12px;
+    padding: 8px 10px;
+  }
+
+  .header-center-body button i {
+    font-size: 16px;
+  }
+
+  .header-center__cart i {
+    font-size: 20px;
+  }
+
+  .header-center__number {
+    width: 12px;
+    height: 12px;
+    font-size: 8px;
+    left: 15px;
+  }
+
+  /* Header Bottom */
+  .header-bottom-body {
+    padding: 10px 0;
+  }
+
+  .header-bottom__cate {
+    padding: 8px 10px;
+  }
+
+  .header-bottom__cate span {
+    font-size: 14px;
+  }
+
+  .cate__list {
+    top: 40px;
+  }
+
+  .cate__img {
+    width: 25px;
+    height: 25px;
+  }
+
+  .cate__link {
+    font-size: 13px;
+  }
+
+  .navbar__list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    width: 100%;
+    margin-top: 8px;
+    gap: 10px;
+    padding: 0 10px 10px 0;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  .navbar__list::-webkit-scrollbar {
+    display: none;
+  }
+
+  .navbar__item {
+    flex: 0 0 auto;
+    min-width: 100px;
+    max-width: 140px;
+  }
+
+  .navbar__link {
+    font-size: 13px;
+    padding: 6px 10px;
+    display: block;
+    text-align: center;
+    white-space: nowrap;
+  }
+
+  /* Auth Section */
+  .auth-section {
+    padding: 15px 0;
+  }
+
+  .auth-container {
+    max-width: 300px;
+  }
+
+  .auth-box {
+    padding: 15px;
+  }
+
+  .auth-tabs {
+    margin-bottom: 15px;
+  }
+
+  .tab {
+    font-size: 13px;
+    padding: 8px;
+  }
+
+  .form-group {
+    margin-bottom: 15px;
+  }
+
+  .form-group label {
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+
+  .form-group input {
+    padding: 8px;
+    font-size: 12px;
+  }
+
+  .auth-btn {
+    font-size: 13px;
+    padding: 8px;
+  }
+
+  .forgot-password {
+    font-size: 12px;
+    margin-top: 10px;
+  }
+
+  .social-login {
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
+  }
+
+  .social-btn {
+    font-size: 12px;
+    padding: 8px;
+  }
+
+  /* Policy */
+  .policy-list {
+    flex-direction: column;
+    gap: 15px;
+    margin: 20px auto;
+  }
+
+  .policy-item {
+    flex: 1 1 100%;
+    padding: 10px;
+  }
+
+  .policy-title {
+    font-size: 1rem;
+  }
+
+  .policy-desc {
+    font-size: 0.8rem;
+  }
+
+  /* Footer */
+  .footer {
+    margin-top: 30px;
+  }
+
+  .footer-list {
+    grid-template-columns: 1fr;
+    padding-top: 30px;
+    gap: 15px;
+  }
+
+  .footer__logo {
+    width: 150px;
+    height: 55px;
+    margin-top: 0;
+  }
+
+  .footer__heading {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+
+  .footer__heading::after {
+    width: 80px;
+  }
+
+  .footer__desc {
+    font-size: 13px;
+    padding-bottom: 10px;
+  }
+
+  .footer-item ul li {
+    font-size: 13px;
+    margin-bottom: 12px;
+  }
+
+  .footer__media-icon li {
+    width: 25px;
+    height: 25px;
+    font-size: 16px;
+  }
+}
