@@ -1,0 +1,1288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- add favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="./assets/favicon/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="./assets/favicon/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="./assets/favicon/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="./assets/favicon/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="./assets/favicon/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="./assets/favicon/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="./assets/favicon/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="./assets/favicon/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/favicon/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="./assets/favicon/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="./assets/favicon/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./assets/favicon/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta
+      name="msapplication-TileImage"
+      content="./assets/favicon/ms-icon-144x144.png"
+    />
+    <meta name="theme-color" content="#ffffff" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- nhúng font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- reset -->
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <!-- style -->
+    <link rel="stylesheet" href="./assets/css/product.css" />
+    <!-- responsive -->
+    <link rel="stylesheet" href="./assets/css/product_responsive.css" />
+    <title>KtraiFruit - Trái cây cho mọi nhà</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header">
+      <!-- header-top -->
+      <div class="header-top">
+        <div class="container">
+          <div class="header-top-body">
+            <p class="header-top__desc">Chào mừng bạn đến với KtraiFruit!</p>
+            <ul class="header-top__list">
+              <li>
+                <a href="./login.html">
+                  <i class="fa-solid fa-user"></i>
+                  Tài khoản
+                </a>
+              </li>
+              <li>Hotline: <span>0357258941</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- header-center -->
+      <div class="header-center">
+        <div class="container">
+          <div class="header-center-body">
+            <img
+              src="./assets/img/logo.png"
+              alt="KtraiFruit"
+              class="header-center__logo"
+            />
+            <form class="header-center__search">
+              <input type="text" placeholder="Bạn muốn tìm gì?" />
+              <button>
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </form>
+
+            <div class="header-center__cart">
+              <i class="fa-solid fa-cart-shopping"></i>
+              <a href="./giohang.html">Giỏ hàng</a>
+              <div class="header-center__number">0</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- header-bottom -->
+      <div class="header-bottom">
+        <div class="container">
+          <div class="header-bottom-body">
+            <!-- Khối danh mục -->
+            <div class="header-bottom__cate">
+              <i class="fa-solid fa-bars"></i>
+              <span>Danh mục sản phẩm</span>
+
+              <!-- list danh mục -->
+              <div class="cate__list">
+                <ul>
+                  <li class="cate__item">
+                    <img
+                      class="cate__img"
+                      src="./assets/img/fruit1.png"
+                      alt=""
+                    />
+                    <a class="cate__link" href="">Trái cây nội địa</a>
+                  </li>
+                  <li class="cate__item">
+                    <img
+                      class="cate__img"
+                      src="./assets/img/fruit2.png"
+                      alt=""
+                    />
+                    <a class="cate__link" href="">Trái cây nhập khẩu</a>
+                  </li>
+                  <li class="cate__item">
+                    <img
+                      class="cate__img"
+                      src="./assets/img/fruit3.png"
+                      alt=""
+                    />
+                    <a class="cate__link" href="">Trái cây theo mùa</a>
+                  </li>
+                  <li class="cate__item">
+                    <img
+                      class="cate__img"
+                      src="./assets/img/fruit5.png"
+                      alt=""
+                    />
+                    <a class="cate__link" href="">Trái cây hữu cơ</a>
+                  </li>
+                  <li class="cate__item">
+                    <img
+                      class="cate__img"
+                      src="./assets/img/fruit4.png"
+                      alt=""
+                    />
+                    <a class="cate__link" href="">Trái cây sấy</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- nav -->
+            <nav class="header-bottom__navbar">
+              <ul class="navbar__list">
+                <li class="navbar__item">
+                  <a class="navbar__link" href="./index.html">Trang chủ</a>
+                </li>
+                <li class="navbar__item">
+                  <a class="navbar__link" href="./gioithieu.html">Giới thiệu</a>
+                </li>
+                <li class="navbar__item">
+                  <a class="navbar__link" href="./product.html">Sản phẩm</a>
+                </li>
+                <li class="navbar__item">
+                  <a class="navbar__link" href="#!">Kiến thức thú vị</a>
+                </li>
+                <li class="navbar__item">
+                  <a class="navbar__link" href="#!">Tin tức</a>
+                </li>
+                <li class="navbar__item">
+                  <a class="navbar__link" href="#!">Liên hệ</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- banner product -->
+    <div class="product-banner">
+      <div class="container">
+        <div class="product-banner-body">
+          <h2 class="product-banner__heading">Tất cả sản phẩm</h2>
+          <!-- Danh sách sản phẩm -->
+          <div class="product-banner__list">
+            <!-- item 1 -->
+            <div class="product-banner__item">
+              <a href="#traicaynoidia">
+                <img
+                  class="product-banner__img"
+                  src="./assets/img/hoaquanoidia.jpg"
+                  alt=""
+                />
+              </a>
+              <p class="product-banner__name">Trái cây nội địa</p>
+            </div>
+
+            <!-- item 1 -->
+            <div class="product-banner__item">
+              <a href="#traicaynhapkhau">
+                <img
+                  class="product-banner__img"
+                  src="./assets/img/hoaquanhapkhau.jpg"
+                  alt=""
+                />
+              </a>
+              <p class="product-banner__name">Trái cây nhập khẩu</p>
+            </div>
+            <!-- item 1 -->
+            <div class="product-banner__item">
+              <img
+                class="product-banner__img"
+                src="./assets/img/nhanlong.jpg"
+                alt=""
+              />
+              <p class="product-banner__name">Trái cây theo mùa</p>
+            </div>
+            <!-- item 1 -->
+            <div class="product-banner__item">
+              <img
+                class="product-banner__img"
+                src="./assets/img/traicayhuuco.jpg"
+                alt=""
+              />
+              <p class="product-banner__name">Trái cây hữu cơ</p>
+            </div>
+            <!-- item 1 -->
+            <div class="product-banner__item">
+              <a href="#traicaysaykho">
+                <img
+                  class="product-banner__img"
+                  src="./assets/img/saykho.jpg"
+                  alt=""
+                />
+              </a>
+              <p class="product-banner__name">Trái cây sấy khô</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- product -->
+    <div class="product">
+      <div class="container">
+        <div class="product-body">
+          <!-- side bar bên trái -->
+          <div class="product-sidebar">
+            <h3 class="product-sidebar__heading">Danh mục sản phẩm</h3>
+            <ul class="product-sidebar__list">
+              <li>
+                <a href="#!">Trái cây nhập khẩu</a>
+              </li>
+              <li>
+                <a href="#!">Trái cây nội địa</a>
+              </li>
+              <li>
+                <a href="#!">Trái cây theo mùa</a>
+              </li>
+              <li>
+                <a href="#!">Trái cây hữu cơ</a>
+              </li>
+              <li>
+                <a href="#!">Trái cây sấy khô</a>
+              </li>
+            </ul>
+
+            <h3 class="product-sidebar__heading">Bộ lọc sản phẩm</h3>
+            <div class="sidebar-filter">
+              <h4>Chọn mức giá</h4>
+              <ul class="sidebar-filter__list">
+                <li>
+                  <label><input type="checkbox" /> Dưới 50.000đ</label>
+                </li>
+                <li>
+                  <label><input type="checkbox" /> Từ 50.000đ - 100.000đ</label>
+                </li>
+                <li>
+                  <label
+                    ><input type="checkbox" /> Từ 100.000đ - 200.000đ</label
+                  >
+                </li>
+                <li>
+                  <label
+                    ><input type="checkbox" /> Từ 200.000đ - 300.000đ</label
+                  >
+                </li>
+                <li>
+                  <label
+                    ><input type="checkbox" /> Từ 300.000đ - 400.000đ</label
+                  >
+                </li>
+                <li>
+                  <label
+                    ><input type="checkbox" /> Từ 400.000đ - 500.000đ</label
+                  >
+                </li>
+                <li>
+                  <label><input type="checkbox" /> Từ 500.000đ - 1 triệu</label>
+                </li>
+                <li>
+                  <label><input type="checkbox" /> Từ 1 triệu - 2 triệu</label>
+                </li>
+                <li>
+                  <label><input type="checkbox" /> Từ 2 triệu - 5 triệu</label>
+                </li>
+                <li>
+                  <label><input type="checkbox" /> Từ 5 triệu - 10 triệu</label>
+                </li>
+                <li>
+                  <label><input type="checkbox" /> Trên 10 triệu</label>
+                </li>
+              </ul>
+
+              <h4>Loại</h4>
+              <ul class="sidebar-filter__list">
+                <li>
+                  <label><input type="checkbox" />Trái cây theo hộp</label>
+                </li>
+                <li>
+                  <label><input type="checkbox" />Trái cây theo set</label>
+                </li>
+                <li>
+                  <label><input type="checkbox" />Trái cây sấy dẻo</label>
+                </li>
+                <li>
+                  <label><input type="checkbox" />Trái cây theo mùa</label>
+                </li>
+                <li>
+                  <label><input type="checkbox" />Trái cây hữu cơ</label>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- product page -->
+          <div class="product-page">
+            <div class="product-page__top">
+              <h1 class="product-page__heading">Tất cả sản phẩm</h1>
+              <div class="product-page__arrange">
+                <p class="arrange__desc">
+                  <i class="fa-solid fa-arrow-down-wide-short"></i>Sắp xếp:
+                </p>
+                <ul>
+                  <li>Mặc định <i class="fa-solid fa-angle-down"></i></li>
+                </ul>
+              </div>
+            </div>
+            <!-- loại sản phẩm 1 -->
+            <h1 class="product-cate__heading" id="traicaynhapkhau">
+              Trái cây nhập khẩu
+            </h1>
+            <div class="product-page__list">
+              <!-- item 1 -->
+              <div class="product-page__item">
+                <a href="./chitietsanpham.html">
+                  <img
+                    class="product-page__img"
+                    src="./assets/img/vietquat.png"
+                    alt=""
+                  />
+                </a>
+                <h2 class="product-page__name">
+                  <a class="product-detail__link" href="./chitietsanpham.html"
+                    >Việt quất</a
+                  >
+                </h2>
+                <div class="product-page__price">
+                  <p class="price-old">200.000đ</p>
+                  <p class="price-new">180.000đ</p>
+                </div>
+                <div class="btn-buy">
+                  <button class="add" onclick="addToCart(this)">
+                    <i class="fa-solid fa-cart-plus"></i>
+                  </button>
+                  <button class="buy" onclick="buyNow(this)">Mua ngay</button>
+                </div>
+              </div>
+
+              <!-- item 2 -->
+              <div class="product-page__item">
+                <img
+                  class="product-page__img"
+                  src="./assets/img/quadao.png"
+                  alt=""
+                />
+                <h2 class="product-page__name">
+                  <a class="product-detail__link" href="#!">Đào hồng</a>
+                </h2>
+                <div class="product-page__price">
+                  <p class="price-old">200.000đ</p>
+                  <p class="price-new">180.000đ</p>
+                </div>
+                <div class="btn-buy">
+                  <button class="add" onclick="addToCart(this)">
+                    <i class="fa-solid fa-cart-plus"></i>
+                  </button>
+                  <button class="buy" onclick="buyNow(this)">Mua ngay</button>
+                </div>
+              </div>
+              <!-- item 3 -->
+              <div class="product-page__item">
+                <img
+                  class="product-page__img"
+                  src="./assets/img/vietquat.png"
+                  alt=""
+                />
+                <h2 class="product-page__name">
+                  <a class="product-detail__link" href="#!">Việt quất</a>
+                </h2>
+                <div class="product-page__price">
+                  <p class="price-old">200.000đ</p>
+                  <p class="price-new">180.000đ</p>
+                </div>
+                <div class="btn-buy">
+                  <button class="add" onclick="addToCart(this)">
+                    <i class="fa-solid fa-cart-plus"></i>
+                  </button>
+                  <button class="buy" onclick="buyNow(this)">Mua ngay</button>
+                </div>
+              </div>
+              <!-- item 4 -->
+              <div class="product-page__item">
+                <img
+                  class="product-page__img"
+                  src="./assets/img/vietquat.png"
+                  alt=""
+                />
+                <h2 class="product-page__name">
+                  <a class="product-detail__link" href="#!">Việt quất</a>
+                </h2>
+                <div class="product-page__price">
+                  <p class="price-old">200.000đ</p>
+                  <p class="price-new">180.000đ</p>
+                </div>
+                <div class="btn-buy">
+                  <button class="add" onclick="addToCart(this)">
+                    <i class="fa-solid fa-cart-plus"></i>
+                  </button>
+                  <button class="buy" onclick="buyNow(this)">Mua ngay</button>
+                </div>
+              </div>
+              <!-- item 5 -->
+              <div class="product-page__item">
+                <img
+                  class="product-page__img"
+                  src="./assets/img/vietquat.png"
+                  alt=""
+                />
+                <h2 class="product-page__name">Việt quất</h2>
+                <div class="product-page__price">
+                  <p class="price-old">200.000đ</p>
+                  <p class="price-new">180.000đ</p>
+                </div>
+                <div class="btn-buy">
+                  <button class="add" onclick="addToCart(this)">
+                    <i class="fa-solid fa-cart-plus"></i>
+                  </button>
+                  <button class="buy" onclick="buyNow(this)">Mua ngay</button>
+                </div>
+              </div>
+              <!-- item 6 -->
+              <div class="product-page__item">
+                <img
+                  class="product-page__img"
+                  src="./assets/img/vietquat.png"
+                  alt=""
+                />
+                <h2 class="product-page__name">Việt quất</h2>
+                <div class="product-page__price">
+                  <p class="price-old">200.000đ</p>
+                  <p class="price-new">180.000đ</p>
+                </div>
+                <div class="btn-buy">
+                  <button class="add">
+                    <i class="fa-solid fa-cart-plus"></i>
+                  </button>
+                  <button class="buy">Mua ngay</button>
+                </div>
+              </div>
+              <!-- item 7 -->
+              <div class="product-page__item">
+                <img
+                  class="product-page__img"
+                  src="./assets/img/vietquat.png"
+                  alt=""
+                />
+                <h2 class="product-page__name">Việt quất</h2>
+                <div class="product-page__price">
+                  <p class="price-old">200.000đ</p>
+                  <p class="price-new">180.000đ</p>
+                </div>
+                <div class="btn-buy">
+                  <button class="add">
+                    <i class="fa-solid fa-cart-plus"></i>
+                  </button>
+                  <button class="buy">Mua ngay</button>
+                </div>
+              </div>
+              <!-- item 8 -->
+              <div class="product-page__item">
+                <img
+                  class="product-page__img"
+                  src="./assets/img/vietquat.png"
+                  alt=""
+                />
+                <h2 class="product-page__name">Việt quất</h2>
+                <div class="product-page__price">
+                  <p class="price-old">200.000đ</p>
+                  <p class="price-new">180.000đ</p>
+                </div>
+                <div class="btn-buy">
+                  <button class="add">
+                    <i class="fa-solid fa-cart-plus"></i>
+                  </button>
+                  <button class="buy">Mua ngay</button>
+                </div>
+              </div>
+              <!-- item 9 -->
+              <div class="product-page__item">
+                <img
+                  class="product-page__img"
+                  src="./assets/img/vietquat.png"
+                  alt=""
+                />
+                <h2 class="product-page__name">Việt quất</h2>
+                <div class="product-page__price">
+                  <p class="price-old">200.000đ</p>
+                  <p class="price-new">180.000đ</p>
+                </div>
+                <div class="btn-buy">
+                  <button class="add">
+                    <i class="fa-solid fa-cart-plus"></i>
+                  </button>
+                  <button class="buy">Mua ngay</button>
+                </div>
+              </div>
+              <!-- item 10 -->
+              <div class="product-page__item">
+                <img
+                  class="product-page__img"
+                  src="./assets/img/vietquat.png"
+                  alt=""
+                />
+                <h2 class="product-page__name">Việt quất</h2>
+                <div class="product-page__price">
+                  <p class="price-old">200.000đ</p>
+                  <p class="price-new">180.000đ</p>
+                </div>
+                <div class="btn-buy">
+                  <button class="add">
+                    <i class="fa-solid fa-cart-plus"></i>
+                  </button>
+                  <button class="buy">Mua ngay</button>
+                </div>
+              </div>
+              <!-- item 11 -->
+              <div class="product-page__item">
+                <img
+                  class="product-page__img"
+                  src="./assets/img/vietquat.png"
+                  alt=""
+                />
+                <h2 class="product-page__name">Việt quất</h2>
+                <div class="product-page__price">
+                  <p class="price-old">200.000đ</p>
+                  <p class="price-new">180.000đ</p>
+                </div>
+                <div class="btn-buy">
+                  <button class="add">
+                    <i class="fa-solid fa-cart-plus"></i>
+                  </button>
+                  <button class="buy">Mua ngay</button>
+                </div>
+              </div>
+              <!-- item 12 -->
+              <div class="product-page__item">
+                <img
+                  class="product-page__img"
+                  src="./assets/img/vietquat.png"
+                  alt=""
+                />
+                <h2 class="product-page__name">Việt quất</h2>
+                <div class="product-page__price">
+                  <p class="price-old">200.000đ</p>
+                  <p class="price-new">180.000đ</p>
+                </div>
+                <div class="btn-buy">
+                  <button class="add">
+                    <i class="fa-solid fa-cart-plus"></i>
+                  </button>
+                  <button class="buy">Mua ngay</button>
+                </div>
+              </div>
+              <!-- item 13 -->
+              <div class="product-page__item">
+                <img
+                  class="product-page__img"
+                  src="./assets/img/vietquat.png"
+                  alt=""
+                />
+                <h2 class="product-page__name">Việt quất</h2>
+                <div class="product-page__price">
+                  <p class="price-old">200.000đ</p>
+                  <p class="price-new">180.000đ</p>
+                </div>
+                <div class="btn-buy">
+                  <button class="add">
+                    <i class="fa-solid fa-cart-plus"></i>
+                  </button>
+                  <button class="buy">Mua ngay</button>
+                </div>
+              </div>
+              <!-- item 14 -->
+              <div class="product-page__item">
+                <img
+                  class="product-page__img"
+                  src="./assets/img/vietquat.png"
+                  alt=""
+                />
+                <h2 class="product-page__name">Việt quất</h2>
+                <div class="product-page__price">
+                  <p class="price-old">200.000đ</p>
+                  <p class="price-new">180.000đ</p>
+                </div>
+                <div class="btn-buy">
+                  <button class="add">
+                    <i class="fa-solid fa-cart-plus"></i>
+                  </button>
+                  <button class="buy">Mua ngay</button>
+                </div>
+              </div>
+            </div>
+
+            <!-- loại sản phẩm 2 -->
+            <h1 class="product-cate__heading" id="traicaynoidia">
+              Trái cây nội địa
+            </h1>
+            <div class="product-page__list">
+              <!-- item 1 -->
+              <div class="product-page__item">
+                <img
+                  class="product-page__img"
+                  src="./assets/img/quanhan.png"
+                  alt=""
+                />
+                <h2 class="product-page__name">Nhãn lồng Hưng Yên</h2>
+                <div class="product-page__price">
+                  <p class="price-old">200.000đ</p>
+                  <p class="price-new">180.000đ</p>
+                </div>
+                <div class="btn-buy">
+                  <button class="add" onclick="addToCart(this)">
+                    <i class="fa-solid fa-cart-plus"></i>
+                  </button>
+                  <button class="buy" onclick="buyNow(this)">Mua ngay</button>
+                </div>
+              </div>
+
+              <!-- item 2 -->
+              <div class="product-page__item">
+                <img
+                  class="product-page__img"
+                  src="./assets/img/quadao.png"
+                  alt=""
+                />
+                <h2 class="product-page__name">Đào hồng</h2>
+                <div class="product-page__price">
+                  <p class="price-old">200.000đ</p>
+                  <p class="price-new">180.000đ</p>
+                </div>
+                <div class="btn-buy">
+                  <button class="add" onclick="addToCart(this)">
+                    <i class="fa-solid fa-cart-plus"></i>
+                  </button>
+                  <button class="buy" onclick="buyNow(this)">Mua ngay</button>
+                </div>
+              </div>
+              <!-- item 3 -->
+              <div class="product-page__item">
+                <img
+                  class="product-page__img"
+                  src="./assets/img/quaroi.png"
+                  alt=""
+                />
+                <h2 class="product-page__name">Roi đỏ</h2>
+                <div class="product-page__price">
+                  <p class="price-old">200.000đ</p>
+                  <p class="price-new">180.000đ</p>
+                </div>
+                <div class="btn-buy">
+                  <button class="add" onclick="addToCart(this)">
+                    <i class="fa-solid fa-cart-plus"></i>
+                  </button>
+                  <button class="buy" onclick="buyNow(this)">Mua ngay</button>
+                </div>
+              </div>
+              <!-- item 4 -->
+              <div class="product-page__item">
+                <img
+                  class="product-page__img"
+                  src="./assets/img/quaman.png"
+                  alt=""
+                />
+                <h2 class="product-page__name">Mận Mộc Châu</h2>
+                <div class="product-page__price">
+                  <p class="price-old">200.000đ</p>
+                  <p class="price-new">180.000đ</p>
+                </div>
+                <div class="btn-buy">
+                  <button class="add" onclick="addToCart(this)">
+                    <i class="fa-solid fa-cart-plus"></i>
+                  </button>
+                  <button class="buy" onclick="buyNow(this)">Mua ngay</button>
+                </div>
+              </div>
+              <!-- item 5 -->
+              <div class="product-page__item">
+                <img
+                  class="product-page__img"
+                  src="./assets/img/vietquat.png"
+                  alt=""
+                />
+                <h2 class="product-page__name">Việt quất</h2>
+                <div class="product-page__price">
+                  <p class="price-old">200.000đ</p>
+                  <p class="price-new">180.000đ</p>
+                </div>
+                <div class="btn-buy">
+                  <button class="add" onclick="addToCart(this)">
+                    <i class="fa-solid fa-cart-plus"></i>
+                  </button>
+                  <button class="buy" onclick="buyNow(this)">Mua ngay</button>
+                </div>
+              </div>
+              <!-- item 6 -->
+              <div class="product-page__item">
+                <img
+                  class="product-page__img"
+                  src="./assets/img/vietquat.png"
+                  alt=""
+                />
+                <h2 class="product-page__name">Việt quất</h2>
+                <div class="product-page__price">
+                  <p class="price-old">200.000đ</p>
+                  <p class="price-new">180.000đ</p>
+                </div>
+                <div class="btn-buy">
+                  <button class="add">
+                    <i class="fa-solid fa-cart-plus"></i>
+                  </button>
+                  <button class="buy">Mua ngay</button>
+                </div>
+              </div>
+              <!-- item 7 -->
+              <div class="product-page__item">
+                <img
+                  class="product-page__img"
+                  src="./assets/img/vietquat.png"
+                  alt=""
+                />
+                <h2 class="product-page__name">Việt quất</h2>
+                <div class="product-page__price">
+                  <p class="price-old">200.000đ</p>
+                  <p class="price-new">180.000đ</p>
+                </div>
+                <div class="btn-buy">
+                  <button class="add">
+                    <i class="fa-solid fa-cart-plus"></i>
+                  </button>
+                  <button class="buy">Mua ngay</button>
+                </div>
+              </div>
+              <!-- item 8 -->
+              <div class="product-page__item">
+                <img
+                  class="product-page__img"
+                  src="./assets/img/vietquat.png"
+                  alt=""
+                />
+                <h2 class="product-page__name">Việt quất</h2>
+                <div class="product-page__price">
+                  <p class="price-old">200.000đ</p>
+                  <p class="price-new">180.000đ</p>
+                </div>
+                <div class="btn-buy">
+                  <button class="add">
+                    <i class="fa-solid fa-cart-plus"></i>
+                  </button>
+                  <button class="buy">Mua ngay</button>
+                </div>
+              </div>
+              <!-- item 9 -->
+              <div class="product-page__item">
+                <img
+                  class="product-page__img"
+                  src="./assets/img/vietquat.png"
+                  alt=""
+                />
+                <h2 class="product-page__name">Việt quất</h2>
+                <div class="product-page__price">
+                  <p class="price-old">200.000đ</p>
+                  <p class="price-new">180.000đ</p>
+                </div>
+                <div class="btn-buy">
+                  <button class="add">
+                    <i class="fa-solid fa-cart-plus"></i>
+                  </button>
+                  <button class="buy">Mua ngay</button>
+                </div>
+              </div>
+              <!-- item 10 -->
+              <div class="product-page__item">
+                <img
+                  class="product-page__img"
+                  src="./assets/img/vietquat.png"
+                  alt=""
+                />
+                <h2 class="product-page__name">Việt quất</h2>
+                <div class="product-page__price">
+                  <p class="price-old">200.000đ</p>
+                  <p class="price-new">180.000đ</p>
+                </div>
+                <div class="btn-buy">
+                  <button class="add">
+                    <i class="fa-solid fa-cart-plus"></i>
+                  </button>
+                  <button class="buy">Mua ngay</button>
+                </div>
+              </div>
+              <!-- item 11 -->
+              <div class="product-page__item">
+                <img
+                  class="product-page__img"
+                  src="./assets/img/vietquat.png"
+                  alt=""
+                />
+                <h2 class="product-page__name">Việt quất</h2>
+                <div class="product-page__price">
+                  <p class="price-old">200.000đ</p>
+                  <p class="price-new">180.000đ</p>
+                </div>
+                <div class="btn-buy">
+                  <button class="add">
+                    <i class="fa-solid fa-cart-plus"></i>
+                  </button>
+                  <button class="buy">Mua ngay</button>
+                </div>
+              </div>
+            </div>
+            <!-- loại sản phẩm 3 -->
+            <h1 class="product-cate__heading" id="traicaysaykho">
+              Trái cây sấy khô
+            </h1>
+            <div class="product-page__list">
+              <!-- item 1 -->
+              <div class="product-page__item">
+                <img
+                  class="product-page__img"
+                  src="./assets/img/taokho.png"
+                  alt=""
+                />
+                <h2 class="product-page__name">Táo đỏ sấy</h2>
+                <div class="product-page__price">
+                  <p class="price-old">200.000đ</p>
+                  <p class="price-new">180.000đ</p>
+                </div>
+                <div class="btn-buy">
+                  <button class="add" onclick="addToCart(this)">
+                    <i class="fa-solid fa-cart-plus"></i>
+                  </button>
+                  <button class="buy" onclick="buyNow(this)">Mua ngay</button>
+                </div>
+              </div>
+
+              <!-- item 2 -->
+              <div class="product-page__item">
+                <img
+                  class="product-page__img"
+                  src="./assets/img/nhokho.png"
+                  alt=""
+                />
+                <h2 class="product-page__name">Nho sấy khô</h2>
+                <div class="product-page__price">
+                  <p class="price-old">200.000đ</p>
+                  <p class="price-new">180.000đ</p>
+                </div>
+                <div class="btn-buy">
+                  <button class="add" onclick="addToCart(this)">
+                    <i class="fa-solid fa-cart-plus"></i>
+                  </button>
+                  <button class="buy" onclick="buyNow(this)">Mua ngay</button>
+                </div>
+              </div>
+              <!-- item 3 -->
+              <div class="product-page__item">
+                <img
+                  class="product-page__img"
+                  src="./assets/img/kiwikho.png"
+                  alt=""
+                />
+                <h2 class="product-page__name">Kiwi sấy khô</h2>
+                <div class="product-page__price">
+                  <p class="price-old">200.000đ</p>
+                  <p class="price-new">180.000đ</p>
+                </div>
+                <div class="btn-buy">
+                  <button class="add" onclick="addToCart(this)">
+                    <i class="fa-solid fa-cart-plus"></i>
+                  </button>
+                  <button class="buy" onclick="buyNow(this)">Mua ngay</button>
+                </div>
+              </div>
+              <!-- item 4 -->
+              <div class="product-page__item">
+                <img
+                  class="product-page__img"
+                  src="./assets/img/quaman.png"
+                  alt=""
+                />
+                <h2 class="product-page__name">Mận Mộc Châu</h2>
+                <div class="product-page__price">
+                  <p class="price-old">200.000đ</p>
+                  <p class="price-new">180.000đ</p>
+                </div>
+                <div class="btn-buy">
+                  <button class="add" onclick="addToCart(this)">
+                    <i class="fa-solid fa-cart-plus"></i>
+                  </button>
+                  <button class="buy" onclick="buyNow(this)">Mua ngay</button>
+                </div>
+              </div>
+              <!-- item 5 -->
+              <div class="product-page__item">
+                <img
+                  class="product-page__img"
+                  src="./assets/img/vietquat.png"
+                  alt=""
+                />
+                <h2 class="product-page__name">Việt quất</h2>
+                <div class="product-page__price">
+                  <p class="price-old">200.000đ</p>
+                  <p class="price-new">180.000đ</p>
+                </div>
+                <div class="btn-buy">
+                  <button class="add" onclick="addToCart(this)">
+                    <i class="fa-solid fa-cart-plus"></i>
+                  </button>
+                  <button class="buy" onclick="buyNow(this)">Mua ngay</button>
+                </div>
+              </div>
+              <!-- item 6 -->
+              <div class="product-page__item">
+                <img
+                  class="product-page__img"
+                  src="./assets/img/vietquat.png"
+                  alt=""
+                />
+                <h2 class="product-page__name">Việt quất</h2>
+                <div class="product-page__price">
+                  <p class="price-old">200.000đ</p>
+                  <p class="price-new">180.000đ</p>
+                </div>
+                <div class="btn-buy">
+                  <button class="add">
+                    <i class="fa-solid fa-cart-plus"></i>
+                  </button>
+                  <button class="buy">Mua ngay</button>
+                </div>
+              </div>
+              <!-- item 7 -->
+              <div class="product-page__item">
+                <img
+                  class="product-page__img"
+                  src="./assets/img/vietquat.png"
+                  alt=""
+                />
+                <h2 class="product-page__name">Việt quất</h2>
+                <div class="product-page__price">
+                  <p class="price-old">200.000đ</p>
+                  <p class="price-new">180.000đ</p>
+                </div>
+                <div class="btn-buy">
+                  <button class="add">
+                    <i class="fa-solid fa-cart-plus"></i>
+                  </button>
+                  <button class="buy">Mua ngay</button>
+                </div>
+              </div>
+              <!-- item 8 -->
+              <div class="product-page__item">
+                <img
+                  class="product-page__img"
+                  src="./assets/img/vietquat.png"
+                  alt=""
+                />
+                <h2 class="product-page__name">Việt quất</h2>
+                <div class="product-page__price">
+                  <p class="price-old">200.000đ</p>
+                  <p class="price-new">180.000đ</p>
+                </div>
+                <div class="btn-buy">
+                  <button class="add">
+                    <i class="fa-solid fa-cart-plus"></i>
+                  </button>
+                  <button class="buy">Mua ngay</button>
+                </div>
+              </div>
+              <!-- item 9 -->
+              <div class="product-page__item">
+                <img
+                  class="product-page__img"
+                  src="./assets/img/vietquat.png"
+                  alt=""
+                />
+                <h2 class="product-page__name">Việt quất</h2>
+                <div class="product-page__price">
+                  <p class="price-old">200.000đ</p>
+                  <p class="price-new">180.000đ</p>
+                </div>
+                <div class="btn-buy">
+                  <button class="add">
+                    <i class="fa-solid fa-cart-plus"></i>
+                  </button>
+                  <button class="buy">Mua ngay</button>
+                </div>
+              </div>
+              <!-- item 10 -->
+              <div class="product-page__item">
+                <img
+                  class="product-page__img"
+                  src="./assets/img/vietquat.png"
+                  alt=""
+                />
+                <h2 class="product-page__name">Việt quất</h2>
+                <div class="product-page__price">
+                  <p class="price-old">200.000đ</p>
+                  <p class="price-new">180.000đ</p>
+                </div>
+                <div class="btn-buy">
+                  <button class="add">
+                    <i class="fa-solid fa-cart-plus"></i>
+                  </button>
+                  <button class="buy">Mua ngay</button>
+                </div>
+              </div>
+              <!-- item 11 -->
+              <div class="product-page__item">
+                <img
+                  class="product-page__img"
+                  src="./assets/img/vietquat.png"
+                  alt=""
+                />
+                <h2 class="product-page__name">Việt quất</h2>
+                <div class="product-page__price">
+                  <p class="price-old">200.000đ</p>
+                  <p class="price-new">180.000đ</p>
+                </div>
+                <div class="btn-buy">
+                  <button class="add">
+                    <i class="fa-solid fa-cart-plus"></i>
+                  </button>
+                  <button class="buy">Mua ngay</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- modal -->
+    <div class="modal" id="buyModal">
+      <div class="modal-content">
+        <img id="modalImage" src="" alt="Product Image" />
+        <h2 id="modalName"></h2>
+        <p class="price" id="modalPrice"></p>
+        <div class="quantity-control">
+          <button onclick="changeQuantity(-1)">-</button>
+          <span id="modalQuantity">1</span>
+          <button onclick="changeQuantity(1)">+</button>
+        </div>
+        <div class="buttons">
+          <button class="order-btn" onclick="placeOrder()">Đặt hàng</button>
+          <button class="cancel-btn" onclick="closeModal()">Quay lại</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- policy -->
+    <div class="policy">
+      <div class="container">
+        <div class="policy-list">
+          <!-- item 1 -->
+          <div class="policy-item">
+            <img src="./assets/img/policy1.webp" alt="" class="policy__img" />
+            <div class="policy-content">
+              <h4 class="policy-title">Vận chuyển miễn phí</h4>
+              <p class="policy-desc">Hóa đơn trên 5 triệu</p>
+            </div>
+          </div>
+          <!-- item 2 -->
+          <div class="policy-item">
+            <img src="./assets/img/policy2.webp" alt="" class="policy__img" />
+            <div class="policy-content">
+              <h4 class="policy-title">Đổi trả miễn phí</h4>
+              <p class="policy-desc">Trong vòng 7 ngày</p>
+            </div>
+          </div>
+          <!-- item 3 -->
+          <div class="policy-item">
+            <img src="./assets/img/policy3.webp" alt="" class="policy__img" />
+            <div class="policy-content">
+              <h4 class="policy-title">100% Hoàn tiền</h4>
+              <p class="policy-desc">Nếu sản phẩm lỗi</p>
+            </div>
+          </div>
+          <!-- item 4 -->
+          <div class="policy-item">
+            <img src="./assets/img/policy4.webp" alt="" class="policy__img" />
+            <div class="policy-content">
+              <h4 class="policy-title">Hotline: 1900 6750</h4>
+              <p class="policy-desc">Hỗ trợ 24/7</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-body">
+          <div class="footer-list">
+            <!-- cột 1 -->
+            <div class="footer-item">
+              <img class="footer__logo" src="./assets/img/logo.png" alt="" />
+              <p class="footer__desc">
+                KtraiFruit - Chúng tôi chuyên cung cấp hoa quả sạch, an toàn cho
+                mọi nhà.
+              </p>
+              <h3 class="footer__heading">Kết nối với chúng tôi</h3>
+              <div class="footer__media">
+                <ul class="footer__media-icon">
+                  <li>
+                    <a href="#!" class="media-link"
+                      ><i class="fa-brands fa-facebook"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#!" class="media-link"
+                      ><i class="fa-brands fa-youtube"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#!" class="media-link"
+                      ><i class="fa-brands fa-tiktok"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#!" class="media-link"
+                      ><i class="fa-brands fa-twitter"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- cột 2 -->
+            <div class="footer-item">
+              <h3 class="footer__heading">Chính sách</h3>
+              <ul>
+                <li>
+                  <a href="#!" class="footer__link">Chính sách thành viên</a>
+                </li>
+                <li>
+                  <a href="#!" class="footer__link">Chính sách thanh toán</a>
+                </li>
+                <li>
+                  <a href="#!" class="footer__link">Chính sách đổi sản phẩm</a>
+                </li>
+                <li>
+                  <a href="#!" class="footer__link">Chính sách bảo mật</a>
+                </li>
+                <li>
+                  <a href="#!" class="footer__link">Chính sách cộng tác</a>
+                </li>
+                <li>
+                  <a href="#!" class="footer__link">Chính sách bảo hành</a>
+                </li>
+              </ul>
+            </div>
+            <!-- cột 3 -->
+            <div class="footer-item">
+              <h3 class="footer__heading">Hướng dẫn</h3>
+              <ul>
+                <li>
+                  <a href="#!" class="footer__link">Hướng dẫn mua hàng</a>
+                </li>
+                <li><a href="#!" class="footer__link">Hướng dẫn đổi trả</a></li>
+                <li>
+                  <a href="#!" class="footer__link">Hướng đẫn thanh toán</a>
+                </li>
+                <li>
+                  <a href="#!" class="footer__link"
+                    >Chương trình cộng tác viên</a
+                  >
+                </li>
+                <li><a href="#!" class="footer__link">Tìm kiếm</a></li>
+                <li><a href="#!" class="footer__link">Liên hệ</a></li>
+              </ul>
+            </div>
+            <!-- cột 4 -->
+            <div class="footer-item">
+              <h3 class="footer__heading">Địa chỉ</h3>
+              <ul class="footer-address">
+                <li>
+                  <span>Địa chỉ:</span> Lưu Xá, Hồ Tùng Mậu, Ân Thi, Hưng Yên
+                </li>
+                <li><span>Liên hệ:</span> 0357258941</li>
+                <li><span>Email:</span> buikimtrai2k5@gmail.com</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./assets/js/product_addcart.js"></script>
+  </body>
+</html>

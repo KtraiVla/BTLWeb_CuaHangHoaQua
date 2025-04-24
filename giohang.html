@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- add favicon -->
+        <link
+        rel="apple-touch-icon"
+        sizes="57x57"
+        href="./assets/favicon/apple-icon-57x57.png"
+      />
+      <link
+        rel="apple-touch-icon"
+        sizes="60x60"
+        href="./assets/favicon/apple-icon-60x60.png"
+      />
+      <link
+        rel="apple-touch-icon"
+        sizes="72x72"
+        href="./assets/favicon/apple-icon-72x72.png"
+      />
+      <link
+        rel="apple-touch-icon"
+        sizes="76x76"
+        href="./assets/favicon/apple-icon-76x76.png"
+      />
+      <link
+        rel="apple-touch-icon"
+        sizes="114x114"
+        href="./assets/favicon/apple-icon-114x114.png"
+      />
+      <link
+        rel="apple-touch-icon"
+        sizes="120x120"
+        href="./assets/favicon/apple-icon-120x120.png"
+      />
+      <link
+        rel="apple-touch-icon"
+        sizes="144x144"
+        href="./assets/favicon/apple-icon-144x144.png"
+      />
+      <link
+        rel="apple-touch-icon"
+        sizes="152x152"
+        href="./assets/favicon/apple-icon-152x152.png"
+      />
+      <link
+        rel="apple-touch-icon"
+        sizes="180x180"
+        href="./assets/favicon/apple-icon-180x180.png"
+      />
+      <link
+        rel="icon"
+        type="image/png"
+        sizes="192x192"
+        href="./assets/favicon/android-icon-192x192.png"
+      />
+      <link
+        rel="icon"
+        type="image/png"
+        sizes="32x32"
+        href="./assets/favicon/favicon-32x32.png"
+      />
+      <link
+        rel="icon"
+        type="image/png"
+        sizes="96x96"
+        href="./assets/favicon/favicon-96x96.png"
+      />
+      <link
+        rel="icon"
+        type="image/png"
+        sizes="16x16"
+        href="./assets/favicon/favicon-16x16.png"
+      />
+      <link rel="manifest" href="./assets/favicon/manifest.json" />
+      <meta name="msapplication-TileColor" content="#ffffff" />
+      <meta
+        name="msapplication-TileImage"
+        content="./assets/favicon/ms-icon-144x144.png"
+      />
+      <meta name="theme-color" content="#ffffff" />
+  
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+      />
+    <!-- icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- nhúng font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- reset css -->
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <!-- style css -->
+    <link rel="stylesheet" href="./assets/css/giohang.css" />
+    <!-- responsive -->
+    <link rel="stylesheet" href="./assets/css/giohang_responsive.css">
+    <title>KtraiFruit - Trái cây cho mọi nhà</title>
+  </head>
+  <body>
+    <script src="./assets/js/cart.js"></script>
+    <!-- header -->
+    <header class="header">
+      <!-- header-top -->
+      <div class="header-top">
+        <div class="container">
+          <div class="header-top-body">
+            <p class="header-top__desc">Chào mừng bạn đến với KtraiFruit!</p>
+            <ul class="header-top__list">
+              <li>
+                <a href="#!">
+                  <i class="fa-solid fa-user"></i>
+                  Tài khoản
+                </a>
+              </li>
+              <li>Hotline: <span>0357258941</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- header-center -->
+      <div class="header-center">
+        <div class="container">
+          <div class="header-center-body">
+            <img
+              src="./assets/img/logo.png"
+              alt="KtraiFruit"
+              class="header-center__logo"
+            />
+            <form class="header-center__search">
+              <input type="text" placeholder="Bạn muốn tìm gì?" />
+              <button>
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </form>
+
+            <div class="header-center__cart">
+              <i class="fa-solid fa-cart-shopping"></i>
+              <a href="./giohang.html">Giỏ hàng</a>
+              <div class="header-center__number">0</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- header-bottom -->
+      <div class="header-bottom">
+        <div class="container">
+          <div class="header-bottom-body">
+            <!-- Khối danh mục -->
+            <div class="header-bottom__cate">
+              <i class="fa-solid fa-bars"></i>
+              <span>Danh mục sản phẩm</span>
+
+              <!-- list danh mục -->
+              <div class="cate__list">
+                <ul>
+                  <li class="cate__item">
+                    <img
+                      class="cate__img"
+                      src="./assets/img/fruit1.png"
+                      alt=""
+                    />
+                    <a class="cate__link" href="">Trái cây nội địa</a>
+                  </li>
+                  <li class="cate__item">
+                    <img
+                      class="cate__img"
+                      src="./assets/img/fruit2.png"
+                      alt=""
+                    />
+                    <a class="cate__link" href="">Trái cây nhập khẩu</a>
+                  </li>
+                  <li class="cate__item">
+                    <img
+                      class="cate__img"
+                      src="./assets/img/fruit3.png"
+                      alt=""
+                    />
+                    <a class="cate__link" href="">Trái cây theo mùa</a>
+                  </li>
+                  <li class="cate__item">
+                    <img
+                      class="cate__img"
+                      src="./assets/img/fruit5.png"
+                      alt=""
+                    />
+                    <a class="cate__link" href="">Trái cây hữu cơ</a>
+                  </li>
+                  <li class="cate__item">
+                    <img
+                      class="cate__img"
+                      src="./assets/img/fruit4.png"
+                      alt=""
+                    />
+                    <a class="cate__link" href="">Trái cây sấy</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- nav -->
+            <nav class="header-bottom__navbar">
+              <ul class="navbar__list">
+                <li class="navbar__item">
+                  <a class="navbar__link" href="./index.html">Trang chủ</a>
+                </li>
+                <li class="navbar__item">
+                  <a class="navbar__link" href="./gioithieu.html">Giới thiệu</a>
+                </li>
+                <li class="navbar__item">
+                  <a class="navbar__link" href="./product.html">Sản phẩm</a>
+                </li>
+                <li class="navbar__item">
+                  <a class="navbar__link" href="#!">Kiến thức thú vị</a>
+                </li>
+                <li class="navbar__item">
+                  <a class="navbar__link" href="#!">Tin tức</a>
+                </li>
+                <li class="navbar__item">
+                  <a class="navbar__link" href="#!">Liên hệ</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- cart  -->
+    <div class="cart">
+      <div class="container">
+        <!-- Header -->
+        <div class="cart-header">
+          <div class="header-item">Sản phẩm</div>
+          <div class="header-item">Thông tin sản phẩm</div>
+          <div class="header-item">Đơn giá</div>
+          <div class="header-item">Số lượng</div>
+          <div class="header-item">Thành tiền</div>
+          <div class="header-item">Xóa</div>
+        </div>
+        <!-- Cart Items -->
+        <div class="cart-items" id="cartItems">
+          <!-- <div class="cart-item">
+            <div class="item-image">
+              <img src="./assets/img/vietquat.png" alt="Cà chua Đà Lạt" />
+            </div>
+            <div class="item-info">Cà chua Đà Lạt</div>
+            <div class="item-price">120.000đ</div>
+            <div class="item-quantity">
+              <button class="decrease">-</button>
+              <span class="quantity">1</span>
+              <button class="increase">+</button>
+            </div>
+            <div class="item-total">120.000đ</div>
+            <div class="item-delete"><button class="delete">🗑️</button></div>
+          </div>
+          <div class="cart-item">
+            <div class="item-image">
+              <img
+                src="https://via.placeholder.com/80"
+                alt="Ớt ngọt Động Ti Mo"
+              />
+            </div>
+            <div class="item-info">Ớt ngọt Động Ti Mo</div>
+            <div class="item-price">290.000đ</div>
+            <div class="item-quantity">
+              <button class="decrease">-</button>
+              <span class="quantity">1</span>
+              <button class="increase">+</button>
+            </div>
+            <div class="item-total">290.000đ</div>
+            <div class="item-delete"><button class="delete">🗑️</button></div>
+          </div>
+          <div class="cart-item">
+            <div class="item-image">
+              <img
+                src="https://via.placeholder.com/80"
+                alt="Súp lơ trắng Đà Lạt"
+              />
+            </div>
+            <div class="item-info">Súp lơ trắng Đà Lạt</div>
+            <div class="item-price">65.000đ</div>
+            <div class="item-quantity">
+              <button class="decrease">-</button>
+              <span class="quantity">1</span>
+              <button class="increase">+</button>
+            </div>
+            <div class="item-total">65.000đ</div>
+            <div class="item-delete"><button class="delete">🗑️</button></div>
+          </div> -->
+
+        </div>
+
+        <!-- Total -->
+        <div class="total">
+          <span>Tổng tiền: <strong id="totalPrice">0đ</strong></span>
+          <div class="buttons">
+            <button class="continue"><a href="./product.html">Tiếp tục mua hàng</a></button>
+            <button class="checkout">Đặt hàng</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- policy -->
+    <div class="policy">
+      <div class="container">
+        <div class="policy-list">
+          <!-- item 1 -->
+          <div class="policy-item">
+            <img src="./assets/img/policy1.webp" alt="" class="policy__img" />
+            <div class="policy-content">
+              <h4 class="policy-title">Vận chuyển miễn phí</h4>
+              <p class="policy-desc">Hóa đơn trên 5 triệu</p>
+            </div>
+          </div>
+          <!-- item 2 -->
+          <div class="policy-item">
+            <img src="./assets/img/policy2.webp" alt="" class="policy__img" />
+            <div class="policy-content">
+              <h4 class="policy-title">Đổi trả miễn phí</h4>
+              <p class="policy-desc">Trong vòng 7 ngày</p>
+            </div>
+          </div>
+          <!-- item 3 -->
+          <div class="policy-item">
+            <img src="./assets/img/policy3.webp" alt="" class="policy__img" />
+            <div class="policy-content">
+              <h4 class="policy-title">100% Hoàn tiền</h4>
+              <p class="policy-desc">Nếu sản phẩm lỗi</p>
+            </div>
+          </div>
+          <!-- item 4 -->
+          <div class="policy-item">
+            <img src="./assets/img/policy4.webp" alt="" class="policy__img" />
+            <div class="policy-content">
+              <h4 class="policy-title">Hotline: 1900 6750</h4>
+              <p class="policy-desc">Hỗ trợ 24/7</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-body">
+          <div class="footer-list">
+            <!-- cột 1 -->
+            <div class="footer-item">
+              <img class="footer__logo" src="./assets/img/logo.png" alt="" />
+              <p class="footer__desc">
+                KtraiFruit - Chúng tôi chuyên cung cấp hoa quả sạch, an toàn cho
+                mọi nhà.
+              </p>
+              <h3 class="footer__heading">Kết nối với chúng tôi</h3>
+              <div class="footer__media">
+                <ul class="footer__media-icon">
+                  <li>
+                    <a href="#!" class="media-link"
+                      ><i class="fa-brands fa-facebook"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#!" class="media-link"
+                      ><i class="fa-brands fa-youtube"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#!" class="media-link"
+                      ><i class="fa-brands fa-tiktok"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#!" class="media-link"
+                      ><i class="fa-brands fa-twitter"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- cột 2 -->
+            <div class="footer-item">
+              <h3 class="footer__heading">Chính sách</h3>
+              <ul>
+                <li>
+                  <a href="#!" class="footer__link">Chính sách thành viên</a>
+                </li>
+                <li>
+                  <a href="#!" class="footer__link">Chính sách thanh toán</a>
+                </li>
+                <li>
+                  <a href="#!" class="footer__link">Chính sách đổi sản phẩm</a>
+                </li>
+                <li>
+                  <a href="#!" class="footer__link">Chính sách bảo mật</a>
+                </li>
+                <li>
+                  <a href="#!" class="footer__link">Chính sách cộng tác</a>
+                </li>
+                <li>
+                  <a href="#!" class="footer__link">Chính sách bảo hành</a>
+                </li>
+              </ul>
+            </div>
+            <!-- cột 3 -->
+            <div class="footer-item">
+              <h3 class="footer__heading">Hướng dẫn</h3>
+              <ul>
+                <li>
+                  <a href="#!" class="footer__link">Hướng dẫn mua hàng</a>
+                </li>
+                <li><a href="#!" class="footer__link">Hướng dẫn đổi trả</a></li>
+                <li>
+                  <a href="#!" class="footer__link">Hướng đẫn thanh toán</a>
+                </li>
+                <li>
+                  <a href="#!" class="footer__link"
+                    >Chương trình cộng tác viên</a
+                  >
+                </li>
+                <li><a href="#!" class="footer__link">Tìm kiếm</a></li>
+                <li><a href="#!" class="footer__link">Liên hệ</a></li>
+              </ul>
+            </div>
+            <!-- cột 4 -->
+            <div class="footer-item">
+              <h3 class="footer__heading">Địa chỉ</h3>
+              <ul class="footer-address">
+                <li>
+                  <span>Địa chỉ:</span> Lưu Xá, Hồ Tùng Mậu, Ân Thi, Hưng Yên
+                </li>
+                <li><span>Liên hệ:</span> 0357258941</li>
+                <li><span>Email:</span> buikimtrai2k5@gmail.com</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </body>
+</html>

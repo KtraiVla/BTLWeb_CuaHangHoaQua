@@ -1,0 +1,350 @@
+/* Tablet: max-width 1024px */
+@media screen and (max-width: 1024px) {
+  /* Container */
+  .container {
+    max-width: calc(100% - 40px);
+  }
+
+  /* Header Top */
+  .header-top-body {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+  }
+  .header-top__list {
+    gap: 12px;
+    margin-top: 0;
+  }
+  .header-top__desc {
+    font-size: 14px;
+  }
+
+  /* Header Center */
+  .header-center-body {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding: 15px 0;
+  }
+  .header-center__logo {
+    width: 200px;
+    height: 70px;
+    margin: 0 auto;
+    display: block;
+  }
+  .header-center__search,
+  .header-center__cart {
+    margin: 10px 0;
+  }
+  .header-center__search {
+    width: 60%;
+    margin-right: 20px;
+    height: 40px;
+    margin-left: 0;
+  }
+  .header-center__cart {
+    width: auto;
+    padding: 0;
+  }
+  .header-center-body > div:nth-child(2) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .header-center__number{
+    top: -8px;
+    left: 14px;
+  }
+
+  /* Header Bottom */
+  .header-bottom-body {
+    flex-direction: column;
+    padding: 10px 0;
+  }
+  .header-bottom__cate {
+    width: 100%;
+    justify-content: flex-start;
+  }
+  .cate__list {
+    width: 100%;
+    top: 40px;
+  }
+  .navbar__list {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    gap: 12px;
+    margin-top: 10px;
+    padding-bottom: 5px;
+    -webkit-overflow-scrolling: touch;
+  }
+  .navbar__list::-webkit-scrollbar {
+    display: none;
+  }
+  .navbar__list {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .navbar__item {
+    flex: 0 0 auto;
+    text-align: center;
+  }
+  .navbar__link {
+    padding: 8px 15px;
+    font-size: 15px;
+  }
+
+  /* Modal Section */
+  .modal {
+    margin-top: 30px;
+  }
+  .modal-content {
+    padding: 20px;
+    max-width: 500px;
+  }
+  .modal-content h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .form-group label {
+    font-size: 13px;
+  }
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    padding: 8px 10px;
+    font-size: 13px;
+  }
+  .form-group textarea {
+    min-height: 80px;
+  }
+  .form-group.checkbox label {
+    font-size: 13px;
+  }
+  .form-buttons {
+    margin-top: 20px;
+  }
+  .cancel-btn,
+  .confirm-btn {
+    padding: 10px 20px;
+    font-size: 13px;
+  }
+
+  /* Policy */
+  .policy-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 20px;
+  }
+  .policy-item {
+    margin: 0 5px;
+  }
+
+  /* Footer */
+  .footer-list {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 25px;
+  }
+  .footer__logo {
+    width: 200px;
+    height: 70px;
+  }
+  .footer__desc {
+    width: 100%;
+  }
+}
+
+/* Mobile: max-width 767px */
+@media screen and (max-width: 767px) {
+  /* Container */
+  .container {
+    max-width: calc(100% - 20px);
+  }
+
+  /* Header Top */
+  .header-top-body {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 14px;
+    padding-bottom: 5px;
+  }
+  .header-top__desc {
+    font-size: 9px;
+    max-width: 50%;
+  }
+  .header-top__list {
+    flex-direction: row;
+    gap: 5px;
+    margin-top: 0;
+    font-size: 9px;
+  }
+
+  /* Header Center */
+  .header-center-body {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+  }
+  .header-center__logo {
+    width: 150px;
+    height: 55px;
+    margin: 0 auto;
+    display: block;
+  }
+  .header-center__search {
+    width: 65%;
+    height: 30px;
+    margin-right: 10px;
+    margin-left: 0;
+  }
+  .header-center__search input {
+    padding: 6px 8px;
+    font-size: 12px;
+  }
+  .header-center-body button i {
+    font-size: 14px;
+  }
+  .header-center__cart {
+    width: auto;
+    padding: 0;
+  }
+  .header-center__cart i {
+    font-size: 18px;
+  }
+  .header-center__cart a {
+    font-size: 12px;
+  }
+  .header-center__number {
+    width: 12px;
+    height: 12px;
+    font-size: 8px;
+    top: -8px;
+    left: 14px;
+  }
+  .header-center-body > div:nth-child(2) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  /* Header Bottom */
+  .header-bottom__cate span {
+    font-size: 14px;
+  }
+  .cate__img {
+    width: 25px;
+    height: 25px;
+  }
+  .cate__link {
+    font-size: 14px;
+  }
+  .navbar__list {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    gap: 8px;
+    margin-top: 10px;
+    padding-bottom: 5px;
+    -webkit-overflow-scrolling: touch;
+  }
+  .navbar__list::-webkit-scrollbar {
+    display: none;
+  }
+  .navbar__list {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .navbar__item {
+    flex: 0 0 auto;
+    text-align: center;
+  }
+  .navbar__link {
+    padding: 6px 12px;
+    font-size: 13px;
+  }
+
+  /* Modal Section */
+  .modal {
+    margin-top: 20px;
+  }
+  .modal-content {
+    padding: 15px;
+    max-width: 100%;
+  }
+  .modal-content h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  .form-group {
+    margin-bottom: 15px;
+  }
+  .form-group label {
+    font-size: 12px;
+  }
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    padding: 6px 8px;
+    font-size: 12px;
+  }
+  .form-group textarea {
+    min-height: 60px;
+  }
+  .form-group.checkbox label {
+    font-size: 12px;
+  }
+  .address-group {
+    flex-direction: column;
+    gap: 8px;
+  }
+  .form-buttons {
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
+  }
+  .cancel-btn,
+  .confirm-btn {
+    padding: 8px;
+    font-size: 12px;
+    width: 100%;
+  }
+
+  /* Policy */
+  .policy-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .policy-item {
+    margin: 0;
+  }
+
+  /* Footer */
+  .footer-list {
+    grid-template-columns: 1fr;
+  }
+  .footer__heading {
+    font-size: 16px;
+  }
+  .footer__desc {
+    font-size: 14px;
+  }
+  .footer-item ul li {
+    font-size: 14px;
+  }
+  .footer__media-icon li {
+    width: 25px;
+    height: 25px;
+    font-size: 16px;
+  }
+}

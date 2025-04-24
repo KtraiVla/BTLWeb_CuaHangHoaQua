@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- add favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="./assets/favicon/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="./assets/favicon/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="./assets/favicon/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="./assets/favicon/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="./assets/favicon/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="./assets/favicon/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="./assets/favicon/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="./assets/favicon/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/favicon/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="./assets/favicon/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="./assets/favicon/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./assets/favicon/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta
+      name="msapplication-TileImage"
+      content="./assets/favicon/ms-icon-144x144.png"
+    />
+    <meta name="theme-color" content="#ffffff" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- nhúng font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- reset -->
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <!-- style -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- responsive -->
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
+    <!-- js -->
+    <script src="./assets/js/slideshow.js"></script>
+
+    <title>KtraiFruit - Trái cây cho mọi nhà</title>
+  </head>
+  <body>
+    <script src="./assets/js/bestpro_addcart.js"></script>
+
+    <!-- header -->
+    <header class="header">
+      <!-- header-top -->
+      <div class="header-top">
+        <div class="container">
+          <div class="header-top-body">
+            <p class="header-top__desc">Chào mừng bạn đến với KtraiFruit!</p>
+            <ul class="header-top__list">
+              <li class="account-section">
+                <a href="./login.html" class="account-link">
+                  <i class="fa-solid fa-user"></i>
+                  <span class="account-text">Tài khoản</span>
+                </a>
+                <!-- hiện đăng xuất, quản lý sản phẩm -->
+                <ul class="page-admin">
+                  <li>
+                    <a href="">Đăng xuất</a>
+                  </li>
+                  <li>
+                    <a href="">Trang admin</a>
+                  </li>
+                </ul>
+              </li>
+              <li>Hotline: <span class="hotline">0357258941</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- header-center -->
+      <div class="header-center">
+        <div class="container">
+          <div class="header-center-body">
+            <img
+              src="./assets/img/logo.png"
+              alt="KtraiFruit"
+              class="header-center__logo"
+            />
+            <form class="header-center__search">
+              <input type="text" placeholder="Bạn muốn tìm gì?" />
+              <button>
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </form>
+
+            <div class="header-center__cart">
+              <i class="fa-solid fa-cart-shopping"></i>
+              <a href="./giohang.html">Giỏ hàng</a>
+              <div class="header-center__number">0</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- header-bottom -->
+      <div class="header-bottom">
+        <div class="container">
+          <div class="header-bottom-body">
+            <!-- Danh mục -->
+            <div class="header-bottom__cate">
+              <i class="fa-solid fa-bars"></i>
+              <span>Danh mục sản phẩm</span>
+              <!-- list danh mục -->
+              <div class="cate__list">
+                <ul>
+                  <li class="cate__item">
+                    <img
+                      class="cate__img"
+                      src="./assets/img/fruit1.png"
+                      alt=""
+                    />
+                    <a class="cate__link" href="">Trái cây nội địa</a>
+                  </li>
+                  <li class="cate__item">
+                    <img
+                      class="cate__img"
+                      src="./assets/img/fruit2.png"
+                      alt=""
+                    />
+                    <a class="cate__link" href="">Trái cây nhập khẩu</a>
+                  </li>
+                  <li class="cate__item">
+                    <img
+                      class="cate__img"
+                      src="./assets/img/fruit3.png"
+                      alt=""
+                    />
+                    <a class="cate__link" href="">Trái cây theo mùa</a>
+                  </li>
+                  <li class="cate__item">
+                    <img
+                      class="cate__img"
+                      src="./assets/img/fruit5.png"
+                      alt=""
+                    />
+                    <a class="cate__link" href="">Trái cây hữu cơ</a>
+                  </li>
+                  <li class="cate__item">
+                    <img
+                      class="cate__img"
+                      src="./assets/img/fruit4.png"
+                      alt=""
+                    />
+                    <a class="cate__link" href="">Trái cây sấy</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- nav -->
+            <nav class="header-bottom__navbar">
+              <ul class="navbar__list">
+                <li class="navbar__item">
+                  <a class="navbar__link" href="#!">Trang chủ</a>
+                </li>
+                <li class="navbar__item">
+                  <a class="navbar__link" href="./gioithieu.html">Giới thiệu</a>
+                </li>
+                <li class="navbar__item">
+                  <a class="navbar__link" href="./product.html">Sản phẩm</a>
+                </li>
+                <li class="navbar__item">
+                  <a class="navbar__link" href="#!">Kiến thức thú vị</a>
+                </li>
+                <li class="navbar__item">
+                  <a class="navbar__link" href="#!">Tin tức</a>
+                </li>
+                <li class="navbar__item">
+                  <a class="navbar__link" href="#!">Liên hệ</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- banner -->
+    <div class="banner">
+      <div class="container">
+        <div class="banner-body">
+          <img
+            class="banner-slide"
+            src="./assets/img/slide1.jpg"
+            alt="Hoa quả sạch"
+          />
+          <!-- title cho hình ảnh -->
+          <div class="banner-title">
+            <h1 class="banner__heading">Hoa quả sạch cho mọi nhà</h1>
+            <p class="banner__desc">
+              Chúng tôi mang đến cho bạn những loại trái cây tươi ngon, an toàn
+              và đầy đủ dinh dưỡng cho gia đình bạn mỗi ngày
+            </p>
+            <a class="btn btn-banner" href="./product.html">Mua ngay</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- media -->
+    <div class="media">
+      <div class="container">
+        <div class="media__list">
+          <!-- media item 1 -->
+          <div class="media__item">
+            <img class="media__img" src="./assets/img/wash.png" alt="" />
+            <div class="media__content">
+              <h2 class="media__heading">Tươi sạch</h2>
+              <p class="media__desc">
+                Tươi ngon như vừa hái, giao nhanh trong ngày, giữ trọn độ tươi
+                từ vườn đến tay.
+              </p>
+            </div>
+          </div>
+
+          <!-- media item 2 -->
+          <div class="media__item">
+            <img class="media__img" src="./assets/img/organic.png" alt="" />
+            <div class="media__content">
+              <h2 class="media__heading">Hữu cơ</h2>
+              <p class="media__desc">
+                Trái cây từ nông trại hữu cơ chuẩn sạch, không hóa chất, an toàn
+                cho cả gia đình.
+              </p>
+            </div>
+          </div>
+          <!-- media item 3 -->
+          <div class="media__item">
+            <img class="media__img" src="./assets/img/quality.png" alt="" />
+            <div class="media__content">
+              <h2 class="media__heading">Chất lượng</h2>
+              <p class="media__desc">
+                Trái cây được tuyển chọn kỹ lưỡng từ nông trại đến khâu đóng
+                gói, kiểm định nghiêm ngặt
+              </p>
+            </div>
+          </div>
+          <!-- media item 4 -->
+          <div class="media__item">
+            <img class="media__img" src="./assets/img/nature.png" alt="" />
+            <div class="media__content">
+              <h2 class="media__heading">Tự nhiên</h2>
+              <p class="media__desc">
+                Nói không với chất bảo quản, giữ nguyên hương vị và giá trị dinh
+                dưỡng vốn có.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- sản phẩm bán chạy -->
+    <div class="best-product">
+      <div class="container">
+        <div class="best-product-body">
+          <h2 class="best-pro__heading">Sản phẩm bán chạy</h2>
+          <!-- Danh sách bán chạy -->
+          <div class="best-pro__list">
+            <!-- item 1 -->
+            <div class="best-pro__item">
+              <img src="./assets/img/nho.png" alt="" class="best-pro__img" />
+              <h3 class="best-pro__name">Nho Ninh Thuận</h3>
+              <div class="best-pro__price">
+                <p class="price__old">55.000đ</p>
+                <p class="price__new">47.000đ</p>
+              </div>
+              <div class="btn-buy">
+                <button class="add" onclick="addToCart(this)">
+                  <i class="fa-solid fa-cart-plus"></i>
+                </button>
+                <button class="buy">Mua ngay</button>
+              </div>
+            </div>
+            <!-- item 2 -->
+            <div class="best-pro__item">
+              <img src="./assets/img/banana.png" alt="" class="best-pro__img" />
+              <h3 class="best-pro__name">Chuối tiêu hồng</h3>
+              <div class="best-pro__price">
+                <p class="price__old">55.000đ</p>
+                <p class="price__new">47.000đ</p>
+              </div>
+              <div class="btn-buy">
+                <button class="add" onclick="addToCart(this)">
+                  <i class="fa-solid fa-cart-plus"></i>
+                </button>
+                <button class="buy">Mua ngay</button>
+              </div>
+            </div>
+            <!-- item 3 -->
+            <div class="best-pro__item">
+              <img src="./assets/img/xoai.png" alt="" class="best-pro__img" />
+              <h3 class="best-pro__name">Xoài siêu ngọt</h3>
+              <div class="best-pro__price">
+                <p class="price__old">55.000đ</p>
+                <p class="price__new">47.000đ</p>
+              </div>
+              <div class="btn-buy">
+                <button class="add" onclick="addToCart(this)">
+                  <i class="fa-solid fa-cart-plus"></i>
+                </button>
+                <button class="buy">Mua ngay</button>
+              </div>
+            </div>
+            <!-- item 4 -->
+            <div class="best-pro__item">
+              <img src="./assets/img/oi.png" alt="" class="best-pro__img" />
+              <h3 class="best-pro__name">Ổi hồng</h3>
+              <div class="best-pro__price">
+                <p class="price__old">55.000đ</p>
+                <p class="price__new">47.000đ</p>
+              </div>
+              <div class="btn-buy">
+                <button class="add" onclick="addToCart(this)">
+                  <i class="fa-solid fa-cart-plus"></i>
+                </button>
+                <button class="buy">Mua ngay</button>
+              </div>
+            </div>
+          </div>
+          <!-- xem them -->
+          <a class="best-pro__more" href="#!">Xem thêm</a>
+        </div>
+      </div>
+    </div>
+    <!-- khuyến mại -->
+    <div class="promotion">
+      <div class="container">
+        <div class="promotion-body">
+          <div class="promotion__title">
+            <h2 class="promotion__heading">Khuyến mại đặc biệt</h2>
+            <p class="promotion__desc">Đừng bỏ lỡ cơ hội giảm giá đặc biệt!</p>
+          </div>
+          <div class="promotion__list">
+            <!-- item 1 -->
+            <div class="promotion__item">
+              <img
+                src="./assets/img/quanhan.png"
+                alt=""
+                class="promotion__img"
+              />
+              <div class="promotion__info">
+                <h3 class="promotion__name">Nhãn lồng Hưng Yên</h3>
+                <p class="promotion__buy">Đã bán: 175/200</p>
+                <div class="best-pro__price">
+                  <p class="price__old">200.000đ</p>
+                  <p class="price__new">150.000đ</p>
+                </div>
+                <div class="btn-buy">
+                  <button class="add">
+                    <i class="fa-solid fa-cart-plus"></i>
+                  </button>
+                  <button class="buy">Mua ngay</button>
+                </div>
+              </div>
+            </div>
+
+            <!-- item 1 -->
+            <div class="promotion__item">
+              <img src="./assets/img/quabo.png" alt="" class="promotion__img" />
+              <div class="promotion__info">
+                <h3 class="promotion__name">Bơ sáp không hột</h3>
+                <p class="promotion__buy">Đã bán: 175/200</p>
+                <div class="best-pro__price">
+                  <p class="price__old">200.000đ</p>
+                  <p class="price__new">150.000đ</p>
+                </div>
+                <div class="btn-buy">
+                  <button class="add">
+                    <i class="fa-solid fa-cart-plus"></i>
+                  </button>
+                  <button class="buy">Mua ngay</button>
+                </div>
+              </div>
+            </div>
+            <!-- item 1 -->
+            <div class="promotion__item">
+              <img
+                src="./assets/img/vaithieu.png"
+                alt=""
+                class="promotion__img"
+              />
+              <div class="promotion__info">
+                <h3 class="promotion__name">Vải thiều Thanh Hà</h3>
+                <p class="promotion__buy">Đã bán: 175/200</p>
+                <div class="best-pro__price">
+                  <p class="price__old">200.000đ</p>
+                  <p class="price__new">150.000đ</p>
+                </div>
+                <div class="btn-buy">
+                  <button class="add">
+                    <i class="fa-solid fa-cart-plus"></i>
+                  </button>
+                  <button class="buy">Mua ngay</button>
+                </div>
+              </div>
+            </div>
+            <!-- item 1 -->
+            <div class="promotion__item">
+              <img
+                src="./assets/img/quanhan.png"
+                alt=""
+                class="promotion__img"
+              />
+              <div class="promotion__info">
+                <h3 class="promotion__name">Nhãn lồng Hưng Yên</h3>
+                <p class="promotion__buy">Đã bán: 175/200</p>
+                <div class="best-pro__price">
+                  <p class="price__old">200.000đ</p>
+                  <p class="price__new">150.000đ</p>
+                </div>
+                <div class="btn-buy">
+                  <button class="add">
+                    <i class="fa-solid fa-cart-plus"></i>
+                  </button>
+                  <button class="buy">Mua ngay</button>
+                </div>
+              </div>
+            </div>
+            <!-- item 1 -->
+            <div class="promotion__item">
+              <img
+                src="./assets/img/quanhan.png"
+                alt=""
+                class="promotion__img"
+              />
+              <div class="promotion__info">
+                <h3 class="promotion__name">Nhãn lồng Hưng Yên</h3>
+                <p class="promotion__buy">Đã bán: 175/200</p>
+                <div class="best-pro__price">
+                  <p class="price__old">200.000đ</p>
+                  <p class="price__new">150.000đ</p>
+                </div>
+                <div class="btn-buy">
+                  <button class="add">
+                    <i class="fa-solid fa-cart-plus"></i>
+                  </button>
+                  <button class="buy">Mua ngay</button>
+                </div>
+              </div>
+            </div>
+            <!-- item 1 -->
+            <div class="promotion__item">
+              <img
+                src="./assets/img/quanhan.png"
+                alt=""
+                class="promotion__img"
+              />
+              <div class="promotion__info">
+                <h3 class="promotion__name">Nhãn lồng Hưng Yên</h3>
+                <p class="promotion__buy">Đã bán: 175/200</p>
+                <div class="best-pro__price">
+                  <p class="price__old">200.000đ</p>
+                  <p class="price__new">150.000đ</p>
+                </div>
+                <div class="btn-buy">
+                  <button class="add">
+                    <i class="fa-solid fa-cart-plus"></i>
+                  </button>
+                  <button class="buy">Mua ngay</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- kiến thức thú vị -->
+    <div class="knowledge">
+      <div class="container">
+        <div class="knowledge-body">
+          <h2 class="knowledge__heading">Kiến thức thú vị</h2>
+          <div class="knowledge-list">
+            <!-- item 1 -->
+            <div class="knowledge-item">
+              <div class="video">
+                <iframe
+                  width="300"
+                  height="315"
+                  src="https://www.youtube.com/embed/_TtvtE1ncp0?si=7UsBPO42C4czDOMM"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <p class="knowledge__desc">
+                Cách để rửa sạch hoa quả đúng và chuẩn nhất.
+              </p>
+            </div>
+            <!-- item 2 -->
+            <div class="knowledge-item">
+              <div class="video">
+                <iframe
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/y1ALi9A22yw?si=sxpyGgg4hhhRqhFW"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <p class="knowledge__desc">
+                Công thức trà trái cây ngon, giải nhiệt mùa hè.
+              </p>
+            </div>
+            <!-- item 3 -->
+            <div class="knowledge-item">
+              <div class="video">
+                <iframe
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/_TtvtE1ncp0?si=7UsBPO42C4czDOMM"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <p class="knowledge__desc">
+                Cách để rửa sạch hoa quả đúng và chuẩn nhất.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- tin tức -->
+    <div class="news">
+      <div class="container">
+        <div class="news-body">
+          <h2 class="news__heading">Tin tức mỗi ngày</h2>
+          <div class="news-list">
+            <!-- item 1 -->
+            <div class="news-item">
+              <img src="./assets/img/tintuc1.jpg" alt="" />
+              <h3 class="news-item__heading">
+                Cam sành hữu cơ tiêu chuẩn Mỹ của lão nông Bình Dương
+              </h3>
+              <p class="news-item__desc">
+                Vượt qua 225 tiêu chuẩn hữu cơ; 8,9 ha trên tổng số 10,5 ha cam
+                của ông Nguyễn Hữu Hạng (Bình Dương) được chứng nhận hữu cơ của
+                Mỹ và châu Âu.
+              </p>
+            </div>
+
+            <!-- item 2 -->
+            <div class="news-item">
+              <img src="./assets/img/tintuc2.jpg" alt="" />
+              <h3 class="news-item__heading">
+                Chất lượng và kiểm dịch vẫn là yếu tố then chốt để tăng xuất
+                khẩu trái cây
+              </h3>
+              <p class="news-item__desc">
+                Rau quả Việt Nam hiện đã có mặt tại hơn 80 quốc gia và khu vực
+                trên thế giới, với các thị trường trọng điểm như Trung Quốc, Mỹ,
+                Hàn Quốc, Nhật Bản, Thái Lan, Hà Lan, Australia...
+              </p>
+            </div>
+            <!-- item 3 -->
+            <div class="news-item">
+              <img src="./assets/img/tintuc3.jpeg" alt="" />
+              <h3 class="news-item__heading">
+                Trồng nhãn tiêu chuẩn VietGAP không lo bệnh chổi rồng
+              </h3>
+              <p class="news-item__desc">
+                Trong khi bệnh chổi rồng tàn phá nhiều vườn nhãn quế ở đồng bằng
+                sông Cửu Long thì vườn nhãn của ông Đặng Hữu Bạc - tổ tưởng tổ
+                hợp tác nhãn quế Phú Thuận, Bến Tre vẫn phát triển tốt nhờ quy
+                trình trồng VietGAP.
+              </p>
+            </div>
+            <!-- item 4 -->
+            <div class="news-item">
+              <img src="./assets/img/tintuc4.jpg" alt="" />
+              <h3 class="news-item__heading">
+                Mỹ áp thuế mới, điều gì khiến ngành rau quả Việt Nam ít bị ảnh
+                hưởng?
+              </h3>
+              <p class="news-item__desc">
+                Xuất khẩu rau quả sang Mỹ năm 2024 của Việt Nam đạt 360 triệu
+                USD trong tổng kim ngạch 7,4 tỷ USD. Nhờ sự đa dạng về thị
+                trường xuất khẩu, chúng ta đã giảm thiểu được thiệt hại khi gặp
+                bất lợi ở một thị trường.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- đánh giá -->
+    <div class="assess">
+      <div class="container">
+        <div class="assess-body">
+          <h2 class="assess__heading">Khách hàng nói gì về KtraiFood</h2>
+          <!-- danh sách đánh giá -->
+          <div class="assess-list">
+            <!-- item 1 -->
+            <div class="assess-item">
+              <img
+                src="./assets/img/Bill_Gates_2018.jpg"
+                alt=""
+                class="assess__img"
+              />
+              <p class="assess__desc">
+                Quả thật, KtraiFuit đã mang lại cho gia đình tôi những hoa quả
+                thơm ngon. Tôi yêu KtraiFood!
+              </p>
+              <span class="assess__user">Bill Gates</span>
+            </div>
+
+            <!-- item 2 -->
+            <div class="assess-item">
+              <img src="./assets/img/elonmusk.jpg" alt="" class="assess__img" />
+              <p class="assess__desc">
+                Tôi đã từng mua sản phẩm bên KtraiFruit rất nhiều lần, quả thật
+                KtraiFruit đã mang đến cho tôi một trải nghiệm tuyệt vời!
+              </p>
+              <span class="assess__user">Elon Musk</span>
+            </div>
+
+            <!-- item 3 -->
+            <div class="assess-item">
+              <img
+                src="./assets/img/Jensen_Huang_(cropped).jpg"
+                alt=""
+                class="assess__img"
+              />
+              <p class="assess__desc">
+                KtraiFruit đúng là một cửa hàng lớn về lĩnh vực hoa quả sạch.
+                Nơi đây đã mang lại cho tôi những sản phẩm bổ dưỡng cho sức
+                khỏe.
+              </p>
+              <span class="assess__user">Jensen Huang</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-body">
+          <div class="footer-list">
+            <!-- cột 1 -->
+            <div class="footer-item">
+              <img class="footer__logo" src="./assets/img/logo.png" alt="" />
+              <p class="footer__desc">
+                KtraiFruit - Chúng tôi chuyên cung cấp hoa quả sạch, an toàn cho
+                mọi nhà.
+              </p>
+              <h3 class="footer__heading">Kết nối với chúng tôi</h3>
+              <div class="footer__media">
+                <ul class="footer__media-icon">
+                  <li>
+                    <a href="#!" class="media-link"
+                      ><i class="fa-brands fa-facebook"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#!" class="media-link"
+                      ><i class="fa-brands fa-youtube"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#!" class="media-link"
+                      ><i class="fa-brands fa-tiktok"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#!" class="media-link"
+                      ><i class="fa-brands fa-twitter"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- cột 2 -->
+            <div class="footer-item">
+              <h3 class="footer__heading">Chính sách</h3>
+              <ul>
+                <li>
+                  <a href="#!" class="footer__link">Chính sách thành viên</a>
+                </li>
+                <li>
+                  <a href="#!" class="footer__link">Chính sách thanh toán</a>
+                </li>
+                <li>
+                  <a href="#!" class="footer__link">Chính sách đổi sản phẩm</a>
+                </li>
+                <li>
+                  <a href="#!" class="footer__link">Chính sách bảo mật</a>
+                </li>
+                <li>
+                  <a href="#!" class="footer__link">Chính sách cộng tác</a>
+                </li>
+                <li>
+                  <a href="#!" class="footer__link">Chính sách bảo hành</a>
+                </li>
+              </ul>
+            </div>
+            <!-- cột 3 -->
+            <div class="footer-item">
+              <h3 class="footer__heading">Hướng dẫn</h3>
+              <ul>
+                <li>
+                  <a href="#!" class="footer__link">Hướng dẫn mua hàng</a>
+                </li>
+                <li><a href="#!" class="footer__link">Hướng dẫn đổi trả</a></li>
+                <li>
+                  <a href="#!" class="footer__link">Hướng đẫn thanh toán</a>
+                </li>
+                <li>
+                  <a href="#!" class="footer__link"
+                    >Chương trình cộng tác viên</a
+                  >
+                </li>
+                <li><a href="#!" class="footer__link">Tìm kiếm</a></li>
+                <li><a href="#!" class="footer__link">Liên hệ</a></li>
+              </ul>
+            </div>
+            <!-- cột 4 -->
+            <div class="footer-item">
+              <h3 class="footer__heading">Địa chỉ</h3>
+              <ul class="footer-address">
+                <li>
+                  <span>Địa chỉ:</span> Lưu Xá, Hồ Tùng Mậu, Ân Thi, Hưng Yên
+                </li>
+                <li><span>Liên hệ:</span> 0357258941</li>
+                <li><span>Email:</span> buikimtrai2k5@gmail.com</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./assets/js/index.js"></script>
+    <script src="./assets/js/hamburger.js"></script>
+  </body>
+</html>

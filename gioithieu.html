@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- add favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="./assets/favicon/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="./assets/favicon/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="./assets/favicon/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="./assets/favicon/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="./assets/favicon/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="./assets/favicon/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="./assets/favicon/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="./assets/favicon/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/favicon/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="./assets/favicon/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="./assets/favicon/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./assets/favicon/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta
+      name="msapplication-TileImage"
+      content="./assets/favicon/ms-icon-144x144.png"
+    />
+    <meta name="theme-color" content="#ffffff" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- nhúng font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- reset -->
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <!-- style -->
+    <link rel="stylesheet" href="./assets/css/gioithieu.css" />
+    <!-- responsive -->
+    <link rel="stylesheet" href="./assets/css/gioithieu_responsive.css" />
+    <title>KtraiFruit - Trái cây cho mọi nhà</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header">
+      <!-- header-top -->
+      <div class="header-top">
+        <div class="container">
+          <div class="header-top-body">
+            <p class="header-top__desc">Chào mừng bạn đến với KtraiFruit!</p>
+            <ul class="header-top__list">
+              <li>
+                <a href="./login.html">
+                  <i class="fa-solid fa-user"></i>
+                  Tài khoản
+                </a>
+              </li>
+              <li>Hotline: <span>0357258941</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- header-center -->
+      <div class="header-center">
+        <div class="container">
+          <div class="header-center-body">
+            <img
+              src="./assets/img/logo.png"
+              alt="KtraiFruit"
+              class="header-center__logo"
+            />
+            <form class="header-center__search">
+              <input type="text" placeholder="Bạn muốn tìm gì?" />
+              <button>
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </form>
+
+            <div class="header-center__cart">
+              <i class="fa-solid fa-cart-shopping"></i>
+              <a href="./giohang.html">Giỏ hàng</a>
+              <div class="header-center__number">0</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- header-bottom -->
+      <div class="header-bottom">
+        <div class="container">
+          <div class="header-bottom-body">
+            <!-- Khối danh mục -->
+            <div class="header-bottom__cate">
+              <i class="fa-solid fa-bars"></i>
+              <span>Danh mục sản phẩm</span>
+
+              <!-- list danh mục -->
+              <div class="cate__list">
+                <ul>
+                  <li class="cate__item">
+                    <img
+                      class="cate__img"
+                      src="./assets/img/fruit1.png"
+                      alt=""
+                    />
+                    <a class="cate__link" href="">Trái cây nội địa</a>
+                  </li>
+                  <li class="cate__item">
+                    <img
+                      class="cate__img"
+                      src="./assets/img/fruit2.png"
+                      alt=""
+                    />
+                    <a class="cate__link" href="">Trái cây nhập khẩu</a>
+                  </li>
+                  <li class="cate__item">
+                    <img
+                      class="cate__img"
+                      src="./assets/img/fruit3.png"
+                      alt=""
+                    />
+                    <a class="cate__link" href="">Trái cây theo mùa</a>
+                  </li>
+                  <li class="cate__item">
+                    <img
+                      class="cate__img"
+                      src="./assets/img/fruit5.png"
+                      alt=""
+                    />
+                    <a class="cate__link" href="">Trái cây hữu cơ</a>
+                  </li>
+                  <li class="cate__item">
+                    <img
+                      class="cate__img"
+                      src="./assets/img/fruit4.png"
+                      alt=""
+                    />
+                    <a class="cate__link" href="">Trái cây sấy</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- nav -->
+            <nav class="header-bottom__navbar">
+              <ul class="navbar__list">
+                <li class="navbar__item">
+                  <a class="navbar__link" href="./index.html">Trang chủ</a>
+                </li>
+                <li class="navbar__item">
+                  <a class="navbar__link" href="#!">Giới thiệu</a>
+                </li>
+                <li class="navbar__item">
+                  <a class="navbar__link" href="./product.html">Sản phẩm</a>
+                </li>
+                <li class="navbar__item">
+                  <a class="navbar__link" href="#!">Kiến thức thú vị</a>
+                </li>
+                <li class="navbar__item">
+                  <a class="navbar__link" href="#!">Tin tức</a>
+                </li>
+                <li class="navbar__item">
+                  <a class="navbar__link" href="#!">Liên hệ</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- giới thiệu -->
+    <div class="introduction">
+      <div class="container">
+        <!-- Chất lượng và tưới xanh -->
+        <div class="section quality">
+          <h2>KTRAIFRUIT</h2>
+          <h2>Chất lượng và tưới xanh</h2>
+          <img src="./assets/img/gioithieu.jpg" alt="Vegetables" />
+          <p>
+            - Tươi sạch, chất lượng và an toàn là tiêu chí hàng đầu mà chúng tôi
+            hướng tới nhằm cung cấp các sản phẩm thực phẩm
+            <span class="highlight">hữu cơ (organic)</span> chất lượng cao cho
+            người tiêu dùng.
+          </p>
+          <p>
+            - Mỗi công đoạn đều được thực hiện dựa trên tiêu chuẩn chất lượng
+            cao, đảm bảo sản phẩm luôn tươi ngon, sạch, an toàn và bổ dưỡng.
+          </p>
+          <p>
+            - Trong hơn 10 năm qua, các loại thực phẩm
+            <span class="highlight">hữu cơ</span> của chúng tôi đã trở thành một
+            sự lựa chọn hàng đầu của nhiều người tiêu dùng Việt Nam.
+          </p>
+          <p>
+            - Chúng tôi không ngừng cải tiến và đổi mới nhằm đáp ứng nhu cầu
+            ngày càng cao của người tiêu dùng, đồng thời đảm bảo sản phẩm
+            <span class="highlight">hữu cơ</span> luôn giữ được chất lượng tốt
+            nhất.
+          </p>
+          <p>
+            - Tại <span class="highlight">Bean Farm</span>, chất lượng không chỉ
+            là tiêu chí mà còn là niềm tự hào của chúng tôi trong việc mang lại
+            những sản phẩm <span class="highlight">hữu cơ</span> tốt nhất đến
+            tay người tiêu dùng.
+          </p>
+        </div>
+
+        <!-- Tầm nhìn -->
+        <div class="vision-goal">
+          <div class="section vision">
+            <h2>TẦM NHÌN CỦA CHÚNG TÔI</h2>
+            <img src="./assets/img/tamnhin.jpg" alt="Vision" />
+            <p>
+              Hiểu được vấn đề để duy trì và nâng cao nguồn tài nguyên đất nhằm
+              hiện thực hóa mục tiêu phát triển nông nghiệp bền vững tại Việt
+              Nam,
+              <span class="highlight">KtraiFruit</span> hướng tới việc trở thành
+              một trong những công ty hàng đầu trong lĩnh vực sản xuất và cung
+              cấp các loại thực phẩm <span class="highlight">hữu cơ</span> tại
+              Việt Nam. Chúng tôi không ngừng đổi mới, sáng tạo, phát triển các
+              sản phẩm <span class="highlight">hữu cơ</span> nhằm đáp ứng nhu
+              cầu ngày càng cao của người tiêu dùng Việt Nam.
+            </p>
+          </div>
+
+          <!-- Mục tiêu -->
+          <div class="section goal">
+            <h2>MỤC TIÊU CỦA CHÚNG TÔI</h2>
+            <img src="./assets/img/muctieu.jpg" alt="Goal" />
+            <p>
+              Thúc đẩy nền nông nghiệp hiện đại nhằm kết nối và phân phối các
+              đặc sản tại địa phương đến mọi nơi như Hà Nội và Hà Tây. Trong
+              tương lai, chúng tôi sẽ tiếp tục đẩy mạnh phát triển các sản phẩm
+              <span class="highlight">hữu cơ</span> nhằm đáp ứng nhu cầu ngày
+              càng cao của người tiêu dùng Việt Nam.
+            </p>
+          </div>
+        </div>
+
+        <!-- Tại sao chọn chúng tôi -->
+        <div class="section why-choose-us">
+          <h2>Tại sao chọn chúng tôi</h2>
+          <p>
+            Với nhiều năm nghiên cứu trong lĩnh vực nông sản, chúng tôi luôn cam
+            kết với khách hàng về chất lượng sản phẩm sạch, đảm bảo tiêu chuẩn
+            an toàn thực phẩm, chất lượng cao, nguồn gốc rõ ràng và bảo vệ lợi
+            ích người tiêu dùng.
+          </p>
+          <div class="reasons">
+            <div class="reason">
+              <div class="icon">📦</div>
+              <h3>PHÂN PHỐI</h3>
+              <p>
+                KtraiFruit luôn hướng đến xây dựng chuỗi cung ứng nông sản hàng
+                đầu tại Việt Nam.
+              </p>
+            </div>
+            <div class="reason">
+              <div class="icon">🌱</div>
+              <h3>SẢN PHẨM</h3>
+              <p>
+                KtraiFruit luôn tìm kiếm và nhập sản phẩm hữu cơ chất lượng từ
+                thị trường Châu Âu, Mỹ.
+              </p>
+            </div>
+            <div class="reason">
+              <div class="icon">⭐</div>
+              <h3>CHẤT LƯỢNG</h3>
+              <p>
+                Các sản phẩm nông sản đều được chứng nhận tiêu chuẩn chất lượng:
+                Demeter, EU Organic, USDA, AIAB, Vegan.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- policy -->
+    <div class="policy">
+      <div class="container">
+        <div class="policy-list">
+          <!-- item 1 -->
+          <div class="policy-item">
+            <img src="./assets/img/policy1.webp" alt="" class="policy__img" />
+            <div class="policy-content">
+              <h4 class="policy-title">Vận chuyển miễn phí</h4>
+              <p class="policy-desc">Hóa đơn trên 5 triệu</p>
+            </div>
+          </div>
+          <!-- item 2 -->
+          <div class="policy-item">
+            <img src="./assets/img/policy2.webp" alt="" class="policy__img" />
+            <div class="policy-content">
+              <h4 class="policy-title">Đổi trả miễn phí</h4>
+              <p class="policy-desc">Trong vòng 7 ngày</p>
+            </div>
+          </div>
+          <!-- item 3 -->
+          <div class="policy-item">
+            <img src="./assets/img/policy3.webp" alt="" class="policy__img" />
+            <div class="policy-content">
+              <h4 class="policy-title">100% Hoàn tiền</h4>
+              <p class="policy-desc">Nếu sản phẩm lỗi</p>
+            </div>
+          </div>
+          <!-- item 4 -->
+          <div class="policy-item">
+            <img src="./assets/img/policy4.webp" alt="" class="policy__img" />
+            <div class="policy-content">
+              <h4 class="policy-title">Hotline: 1900 6750</h4>
+              <p class="policy-desc">Hỗ trợ 24/7</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-body">
+          <div class="footer-list">
+            <!-- cột 1 -->
+            <div class="footer-item">
+              <img class="footer__logo" src="./assets/img/logo.png" alt="" />
+              <p class="footer__desc">
+                KtraiFruit - Chúng tôi chuyên cung cấp hoa quả sạch, an toàn cho
+                mọi nhà.
+              </p>
+              <h3 class="footer__heading">Kết nối với chúng tôi</h3>
+              <div class="footer__media">
+                <ul class="footer__media-icon">
+                  <li>
+                    <a href="#!" class="media-link"
+                      ><i class="fa-brands fa-facebook"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#!" class="media-link"
+                      ><i class="fa-brands fa-youtube"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#!" class="media-link"
+                      ><i class="fa-brands fa-tiktok"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#!" class="media-link"
+                      ><i class="fa-brands fa-twitter"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- cột 2 -->
+            <div class="footer-item">
+              <h3 class="footer__heading">Chính sách</h3>
+              <ul>
+                <li>
+                  <a href="#!" class="footer__link">Chính sách thành viên</a>
+                </li>
+                <li>
+                  <a href="#!" class="footer__link">Chính sách thanh toán</a>
+                </li>
+                <li>
+                  <a href="#!" class="footer__link">Chính sách đổi sản phẩm</a>
+                </li>
+                <li>
+                  <a href="#!" class="footer__link">Chính sách bảo mật</a>
+                </li>
+                <li>
+                  <a href="#!" class="footer__link">Chính sách cộng tác</a>
+                </li>
+                <li>
+                  <a href="#!" class="footer__link">Chính sách bảo hành</a>
+                </li>
+              </ul>
+            </div>
+            <!-- cột 3 -->
+            <div class="footer-item">
+              <h3 class="footer__heading">Hướng dẫn</h3>
+              <ul>
+                <li>
+                  <a href="#!" class="footer__link">Hướng dẫn mua hàng</a>
+                </li>
+                <li><a href="#!" class="footer__link">Hướng dẫn đổi trả</a></li>
+                <li>
+                  <a href="#!" class="footer__link">Hướng đẫn thanh toán</a>
+                </li>
+                <li>
+                  <a href="#!" class="footer__link"
+                    >Chương trình cộng tác viên</a
+                  >
+                </li>
+                <li><a href="#!" class="footer__link">Tìm kiếm</a></li>
+                <li><a href="#!" class="footer__link">Liên hệ</a></li>
+              </ul>
+            </div>
+            <!-- cột 4 -->
+            <div class="footer-item">
+              <h3 class="footer__heading">Địa chỉ</h3>
+              <ul class="footer-address">
+                <li>
+                  <span>Địa chỉ:</span> Lưu Xá, Hồ Tùng Mậu, Ân Thi, Hưng Yên
+                </li>
+                <li><span>Liên hệ:</span> 0357258941</li>
+                <li><span>Email:</span> buikimtrai2k5@gmail.com</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script>
+      // Hàm để cập nhật số lượng trên biểu tượng giỏ hàng
+      function updateCartNumber() {
+        const cart = JSON.parse(localStorage.getItem("cart")) || [];
+        // Chỉ đếm số loại sản phẩm (số phần tử trong mảng cart), không tính quantity
+        const totalItems = cart.length;
+        document.querySelector(".header-center__number").textContent =
+          totalItems;
+      }
+      updateCartNumber();
+    </script>
+  </body>
+</html>

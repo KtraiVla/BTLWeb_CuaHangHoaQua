@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- add favicon -->
+        <link
+        rel="apple-touch-icon"
+        sizes="57x57"
+        href="./assets/favicon/apple-icon-57x57.png"
+      />
+      <link
+        rel="apple-touch-icon"
+        sizes="60x60"
+        href="./assets/favicon/apple-icon-60x60.png"
+      />
+      <link
+        rel="apple-touch-icon"
+        sizes="72x72"
+        href="./assets/favicon/apple-icon-72x72.png"
+      />
+      <link
+        rel="apple-touch-icon"
+        sizes="76x76"
+        href="./assets/favicon/apple-icon-76x76.png"
+      />
+      <link
+        rel="apple-touch-icon"
+        sizes="114x114"
+        href="./assets/favicon/apple-icon-114x114.png"
+      />
+      <link
+        rel="apple-touch-icon"
+        sizes="120x120"
+        href="./assets/favicon/apple-icon-120x120.png"
+      />
+      <link
+        rel="apple-touch-icon"
+        sizes="144x144"
+        href="./assets/favicon/apple-icon-144x144.png"
+      />
+      <link
+        rel="apple-touch-icon"
+        sizes="152x152"
+        href="./assets/favicon/apple-icon-152x152.png"
+      />
+      <link
+        rel="apple-touch-icon"
+        sizes="180x180"
+        href="./assets/favicon/apple-icon-180x180.png"
+      />
+      <link
+        rel="icon"
+        type="image/png"
+        sizes="192x192"
+        href="./assets/favicon/android-icon-192x192.png"
+      />
+      <link
+        rel="icon"
+        type="image/png"
+        sizes="32x32"
+        href="./assets/favicon/favicon-32x32.png"
+      />
+      <link
+        rel="icon"
+        type="image/png"
+        sizes="96x96"
+        href="./assets/favicon/favicon-96x96.png"
+      />
+      <link
+        rel="icon"
+        type="image/png"
+        sizes="16x16"
+        href="./assets/favicon/favicon-16x16.png"
+      />
+      <link rel="manifest" href="./assets/favicon/manifest.json" />
+      <meta name="msapplication-TileColor" content="#ffffff" />
+      <meta
+        name="msapplication-TileImage"
+        content="./assets/favicon/ms-icon-144x144.png"
+      />
+      <meta name="theme-color" content="#ffffff" />
+  
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+      />
+    <!-- icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- nhúng font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- reset -->
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <!-- style -->
+    <link rel="stylesheet" href="./assets/css/login.css" />
+    <title>KtraiFruit - Trái cây cho mọi nhà</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header">
+      <!-- header-top -->
+      <div class="header-top">
+        <div class="container">
+          <div class="header-top-body">
+            <p class="header-top__desc">Chào mừng bạn đến với KtraiFruit!</p>
+            <ul class="header-top__list">
+              <!-- <li>
+                <a href="#!">
+                  <i class="fa-solid fa-user"></i>
+                  Tài khoản
+                </a>
+              </li> -->
+              <li class="account-section">
+                <a href="./login.html" class="account-link">
+                  <i class="fa-solid fa-user"></i>
+                  <span class="account-text">Tài khoản</span>
+                </a>
+                <div class="account-options" style="display: none;">
+                  <a href="#" class="logout-link">Đăng xuất</a>
+                </div>
+              </li>
+              <li>Hotline: <span>0357258941</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- header-center -->
+      <div class="header-center">
+        <div class="container">
+          <div class="header-center-body">
+            <img
+              src="./assets/img/logo.png"
+              alt="KtraiFruit"
+              class="header-center__logo"
+            />
+            <form class="header-center__search">
+              <input type="text" placeholder="Bạn muốn tìm gì?" />
+              <button>
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </form>
+
+            <div class="header-center__cart">
+              <i class="fa-solid fa-cart-shopping"></i>
+              <a href="./giohang.html">Giỏ hàng</a>
+              <div class="header-center__number">0</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- header-bottom -->
+      <div class="header-bottom">
+        <div class="container">
+          <div class="header-bottom-body">
+            <!-- Khối danh mục -->
+            <div class="header-bottom__cate">
+              <i class="fa-solid fa-bars"></i>
+              <span>Danh mục sản phẩm</span>
+
+              <!-- list danh mục -->
+              <div class="cate__list">
+                <ul>
+                  <li class="cate__item">
+                    <img
+                      class="cate__img"
+                      src="./assets/img/fruit1.png"
+                      alt=""
+                    />
+                    <a class="cate__link" href="">Trái cây nội địa</a>
+                  </li>
+                  <li class="cate__item">
+                    <img
+                      class="cate__img"
+                      src="./assets/img/fruit2.png"
+                      alt=""
+                    />
+                    <a class="cate__link" href="">Trái cây nhập khẩu</a>
+                  </li>
+                  <li class="cate__item">
+                    <img
+                      class="cate__img"
+                      src="./assets/img/fruit3.png"
+                      alt=""
+                    />
+                    <a class="cate__link" href="">Trái cây theo mùa</a>
+                  </li>
+                  <li class="cate__item">
+                    <img
+                      class="cate__img"
+                      src="./assets/img/fruit5.png"
+                      alt=""
+                    />
+                    <a class="cate__link" href="">Trái cây hữu cơ</a>
+                  </li>
+                  <li class="cate__item">
+                    <img
+                      class="cate__img"
+                      src="./assets/img/fruit4.png"
+                      alt=""
+                    />
+                    <a class="cate__link" href="">Trái cây sấy</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- nav -->
+            <nav class="header-bottom__navbar">
+              <ul class="navbar__list">
+                <li class="navbar__item">
+                  <a class="navbar__link" href="./index.html">Trang chủ</a>
+                </li>
+                <li class="navbar__item">
+                  <a class="navbar__link" href="./gioithieu.html">Giới thiệu</a>
+                </li>
+                <li class="navbar__item">
+                  <a class="navbar__link" href="./product.html">Sản phẩm</a>
+                </li>
+                <li class="navbar__item">
+                  <a class="navbar__link" href="#!">Kiến thức thú vị</a>
+                </li>
+                <li class="navbar__item">
+                  <a class="navbar__link" href="#!">Tin tức</a>
+                </li>
+                <li class="navbar__item">
+                  <a class="navbar__link" href="#!">Liên hệ</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Auth Section -->
+    <section class="auth-section">
+      <div class="container">
+        <div class="auth-container">
+          <div class="auth-box">
+            <!-- Tabs -->
+            <div class="auth-tabs">
+              <button class="tab active" onclick="showTab('login')">
+                ĐĂNG NHẬP
+              </button>
+              <button class="tab" onclick="showTab('register')">ĐĂNG KÝ</button>
+            </div>
+
+            <!-- Thông báo trạng thái -->
+            <div id="authMessage" class="auth-message"></div>
+
+            <!-- Login Form -->
+            <div id="login" class="auth-form active">
+              <form id="loginForm">
+                <div class="form-group">
+                  <label for="loginEmail">Email <span>*</span></label>
+                  <input
+                    type="email"
+                    id="loginEmail"
+                    name="email"
+                    placeholder="Nhập email của bạn"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="loginPassword">Mật khẩu <span>*</span></label>
+                  <input
+                    type="password"
+                    id="loginPassword"
+                    name="password"
+                    placeholder="Nhập mật khẩu"
+                    required
+                  />
+                </div>
+                <button type="submit" class="auth-btn">Đăng nhập</button>
+                <a href="#!" class="forgot-password">Quên mật khẩu?</a>
+              </form>
+              <div class="social-login">
+                <button class="social-btn facebook">
+                  <i class="fab fa-facebook-f"></i> Facebook
+                </button>
+                <button class="social-btn google">
+                  <i class="fab fa-google-plus-g"></i> Google
+                </button>
+              </div>
+            </div>
+
+            <!-- Register Form -->
+            <div id="register" class="auth-form">
+              <form id="registerForm">
+                <div class="form-group">
+                  <label for="firstName">Họ <span>*</span></label>
+                  <input
+                    type="text"
+                    id="firstName"
+                    name="firstName"
+                    placeholder="Nhập họ"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="lastName">Tên <span>*</span></label>
+                  <input
+                    type="text"
+                    id="lastName"
+                    name="lastName"
+                    placeholder="Nhập tên"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="registerEmail">Email <span>*</span></label>
+                  <input
+                    type="email"
+                    id="registerEmail"
+                    name="email"
+                    placeholder="Nhập email của bạn"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="phone">Số điện thoại <span>*</span></label>
+                  <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    placeholder="Nhập số điện thoại"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="registerPassword">Mật khẩu <span>*</span></label>
+                  <input
+                    type="password"
+                    id="registerPassword"
+                    name="password"
+                    placeholder="Nhập mật khẩu (tối thiểu 6 ký tự)"
+                    required
+                  />
+                </div>
+                <button type="submit" class="auth-btn">Đăng ký</button>
+              </form>
+              <div class="social-login">
+                <button class="social-btn facebook">
+                  <i class="fab fa-facebook-f"></i> Facebook
+                </button>
+                <button class="social-btn google">
+                  <i class="fab fa-google-plus-g"></i> Google
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- policy -->
+    <div class="policy">
+      <div class="container">
+        <div class="policy-list">
+          <!-- item 1 -->
+          <div class="policy-item">
+            <img src="./assets/img/policy1.webp" alt="" class="policy__img" />
+            <div class="policy-content">
+              <h4 class="policy-title">Vận chuyển miễn phí</h4>
+              <p class="policy-desc">Hóa đơn trên 5 triệu</p>
+            </div>
+          </div>
+          <!-- item 2 -->
+          <div class="policy-item">
+            <img src="./assets/img/policy2.webp" alt="" class="policy__img" />
+            <div class="policy-content">
+              <h4 class="policy-title">Đổi trả miễn phí</h4>
+              <p class="policy-desc">Trong vòng 7 ngày</p>
+            </div>
+          </div>
+          <!-- item 3 -->
+          <div class="policy-item">
+            <img src="./assets/img/policy3.webp" alt="" class="policy__img" />
+            <div class="policy-content">
+              <h4 class="policy-title">100% Hoàn tiền</h4>
+              <p class="policy-desc">Nếu sản phẩm lỗi</p>
+            </div>
+          </div>
+          <!-- item 4 -->
+          <div class="policy-item">
+            <img src="./assets/img/policy4.webp" alt="" class="policy__img" />
+            <div class="policy-content">
+              <h4 class="policy-title">Hotline: 1900 6750</h4>
+              <p class="policy-desc">Hỗ trợ 24/7</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-body">
+          <div class="footer-list">
+            <!-- cột 1 -->
+            <div class="footer-item">
+              <img class="footer__logo" src="./assets/img/logo.png" alt="" />
+              <p class="footer__desc">
+                KtraiFruit - Chúng tôi chuyên cung cấp hoa quả sạch, an toàn cho
+                mọi nhà.
+              </p>
+              <h3 class="footer__heading">Kết nối với chúng tôi</h3>
+              <div class="footer__media">
+                <ul class="footer__media-icon">
+                  <li>
+                    <a href="#!" class="media-link"
+                      ><i class="fa-brands fa-facebook"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#!" class="media-link"
+                      ><i class="fa-brands fa-youtube"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#!" class="media-link"
+                      ><i class="fa-brands fa-tiktok"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#!" class="media-link"
+                      ><i class="fa-brands fa-twitter"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- cột 2 -->
+            <div class="footer-item">
+              <h3 class="footer__heading">Chính sách</h3>
+              <ul>
+                <li>
+                  <a href="#!" class="footer__link">Chính sách thành viên</a>
+                </li>
+                <li>
+                  <a href="#!" class="footer__link">Chính sách thanh toán</a>
+                </li>
+                <li>
+                  <a href="#!" class="footer__link">Chính sách đổi sản phẩm</a>
+                </li>
+                <li>
+                  <a href="#!" class="footer__link">Chính sách bảo mật</a>
+                </li>
+                <li>
+                  <a href="#!" class="footer__link">Chính sách cộng tác</a>
+                </li>
+                <li>
+                  <a href="#!" class="footer__link">Chính sách bảo hành</a>
+                </li>
+              </ul>
+            </div>
+            <!-- cột 3 -->
+            <div class="footer-item">
+              <h3 class="footer__heading">Hướng dẫn</h3>
+              <ul>
+                <li>
+                  <a href="#!" class="footer__link">Hướng dẫn mua hàng</a>
+                </li>
+                <li><a href="#!" class="footer__link">Hướng dẫn đổi trả</a></li>
+                <li>
+                  <a href="#!" class="footer__link">Hướng đẫn thanh toán</a>
+                </li>
+                <li>
+                  <a href="#!" class="footer__link"
+                    >Chương trình cộng tác viên</a
+                  >
+                </li>
+                <li><a href="#!" class="footer__link">Tìm kiếm</a></li>
+                <li><a href="#!" class="footer__link">Liên hệ</a></li>
+              </ul>
+            </div>
+            <!-- cột 4 -->
+            <div class="footer-item">
+              <h3 class="footer__heading">Địa chỉ</h3>
+              <ul class="footer-address">
+                <li>
+                  <span>Địa chỉ:</span> Lưu Xá, Hồ Tùng Mậu, Ân Thi, Hưng Yên
+                </li>
+                <li><span>Liên hệ:</span> 0357258941</li>
+                <li><span>Email:</span> buikimtrai2k5@gmail.com</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./assets/js/login.js"></script>
+  </body>
+</html>
